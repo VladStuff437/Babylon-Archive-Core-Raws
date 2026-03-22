@@ -1,27 +1,28 @@
 name: CI
 
 on:
-pull_request:
-branches: [integration, main]
-push:
-branches: [integration, main]
+  pull_request:
+    branches: [integration, main]
+  push:
+    branches: [integration, main]
 
 jobs:
-build-and-test:
-runs-on: windows-latest
-steps:
-- name: Checkout
-uses: actions/checkout@v4
-  - name: Setup .NET
-    uses: actions/setup-dotnet@v4
-    with:
-      dotnet-version: 10.0.x
+  build-and-test:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-  - name: Restore
-    run: dotnet restore [BabylonArchiveCore.slnx](http://_vscodecontentref_/0)
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
 
-  - name: Build
-    run: dotnet build [BabylonArchiveCore.slnx](http://_vscodecontentref_/1) --configuration Release --no-restore
+      - name: Restore
+        run: dotnet restore ./BabylonArchiveCore.slnx
 
-  - name: Test
-    run: dotnet test [BabylonArchiveCore.Tests.csproj](http://_vscodecontentref_/2) --configuration Release --no-build
+      - name: Build
+        run: dotnet build ./BabylonArchiveCore.slnx --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test ./BabylonArchiveCore.Tests/BabylonArchiveCore.Tests.csproj --configuration Release --no-build
