@@ -1,0 +1,181 @@
+{
+    "sceneId": "SCN_A0_INITIATION",
+    "zones": [
+        {
+            "zoneId": "ZONE_CAPSULE",
+            "displayName": "Капсула пробуждения",
+            "position": {
+                "x": -8.0,
+                "y": 0.0,
+                "z": -6.0
+            },
+            "size": {
+                "width": 4.0,
+                "height": 3.0,
+                "depth": 3.0
+            },
+            "requiredPhase": "Awakening",
+            "isLocked": false
+        },
+        {
+            "zoneId": "ZONE_BIOMETRIC",
+            "displayName": "Биометрическая станция",
+            "position": {
+                "x": -8.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "size": {
+                "width": 4.0,
+                "height": 3.0,
+                "depth": 3.0
+            },
+            "requiredPhase": "Identification",
+            "isLocked": false
+        },
+        {
+            "zoneId": "ZONE_LOGISTICS",
+            "displayName": "Логистический узел",
+            "position": {
+                "x": 8.0,
+                "y": 0.0,
+                "z": -6.0
+            },
+            "size": {
+                "width": 4.0,
+                "height": 3.0,
+                "depth": 3.0
+            },
+            "requiredPhase": "Provisioning",
+            "isLocked": false
+        },
+        {
+            "zoneId": "ZONE_DRONE_NICHE",
+            "displayName": "Ниша дрона",
+            "position": {
+                "x": 8.0,
+                "y": 0.0,
+                "z": -2.0
+            },
+            "size": {
+                "width": 3.0,
+                "height": 3.0,
+                "depth": 3.0
+            },
+            "requiredPhase": "DroneContact",
+            "isLocked": false
+        },
+        {
+            "zoneId": "ZONE_CORE",
+            "displayName": "Платформа C.O.R.E.",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "size": {
+                "width": 6.0,
+                "height": 6.0,
+                "depth": 6.0
+            },
+            "requiredPhase": "Activation",
+            "isLocked": false
+        },
+        {
+            "zoneId": "ZONE_MISSION_TERMINAL",
+            "displayName": "Терминал операций",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 8.0
+            },
+            "size": {
+                "width": 4.0,
+                "height": 3.0,
+                "depth": 4.0
+            },
+            "requiredPhase": "OperationAccess",
+            "isLocked": false
+        },
+        {
+            "zoneId": "ZONE_RESEARCH",
+            "displayName": "Терминал исследований",
+            "position": {
+                "x": 6.0,
+                "y": 0.0,
+                "z": 6.0
+            },
+            "size": {
+                "width": 4.0,
+                "height": 3.0,
+                "depth": 4.0
+            },
+            "requiredPhase": "OperationAccess",
+            "isLocked": false
+        },
+        {
+            "zoneId": "ZONE_OBSERVATION_GALLERY",
+            "displayName": "Обзорная галерея",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.0
+            },
+            "size": {
+                "width": 8.0,
+                "height": 3.0,
+                "depth": 2.0
+            },
+            "requiredPhase": "OperationAccess",
+            "isLocked": false
+        },
+        {
+            "zoneId": "ZONE_HARD_ARCHIVE_ENTRY_LOCKED",
+            "displayName": "Вход в Хард-Архив",
+            "position": {
+                "x": 0.0,
+                "y": -1.0,
+                "z": 11.0
+            },
+            "size": {
+                "width": 4.0,
+                "height": 5.0,
+                "depth": 2.0
+            },
+            "requiredPhase": "OperationAccess",
+            "isLocked": true
+        },
+        {
+            "zoneId": "ZONE_COMMERCE_GATE_LOCKED",
+            "displayName": "Коммерческий шлюз",
+            "position": {
+                "x": -6.0,
+                "y": 0.0,
+                "z": 6.0
+            },
+            "size": {
+                "width": 3.0,
+                "height": 3.0,
+                "depth": 3.0
+            },
+            "requiredPhase": "OperationAccess",
+            "isLocked": true
+        },
+        {
+            "zoneId": "ZONE_TECH_GATE_LOCKED",
+            "displayName": "Технический шлюз",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -8.0
+            },
+            "size": {
+                "width": 3.0,
+                "height": 3.0,
+                "depth": 3.0
+            },
+            "requiredPhase": "OperationAccess",
+            "isLocked": true
+        }
+    ]
+}

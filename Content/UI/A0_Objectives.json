@@ -1,0 +1,54 @@
+{
+    "sceneId": "SCN_A0_INITIATION",
+    "objectives": [
+        {
+            "objectiveId": "UI_OBJ_EXIT_CAPSULE",
+            "text": "Выйти из капсулы",
+            "phase": "Awakening",
+            "targetObject": "OBJ_CAPSULE_EXIT",
+            "order": 1
+        },
+        {
+            "objectiveId": "UI_OBJ_BIOMETRIC",
+            "text": "Пройти биометрическую идентификацию",
+            "phase": "Identification",
+            "targetObject": "OBJ_BIO_SCANNER",
+            "order": 2
+        },
+        {
+            "objectiveId": "UI_OBJ_LOGISTICS",
+            "text": "Получить стартовое снаряжение",
+            "phase": "Provisioning",
+            "targetObject": "OBJ_SUPPLY_TERMINAL",
+            "order": 3
+        },
+        {
+            "objectiveId": "UI_OBJ_DRONE",
+            "text": "Активировать архивного дрона",
+            "phase": "DroneContact",
+            "targetObject": "OBJ_DRONE_DOCK",
+            "order": 4
+        },
+        {
+            "objectiveId": "UI_OBJ_CORE",
+            "text": "Обратиться к C.O.R.E.",
+            "phase": "Activation",
+            "targetObject": "OBJ_CORE_CONSOLE",
+            "order": 5
+        },
+        {
+            "objectiveId": "UI_OBJ_EXPLORE",
+            "text": "Осмотреть терминал операций и обзорную галерею",
+            "phase": "OperationAccess",
+            "targetObject": null,
+            "order": 6
+        },
+        {
+            "objectiveId": "UI_OBJ_PROLOGUE_DONE",
+            "text": "Протокол Ноль разблокирован. Пролог завершён.",
+            "phase": "OperationAccess",
+            "targetObject": null,
+            "order": 7
+        }
+    ]
+}
