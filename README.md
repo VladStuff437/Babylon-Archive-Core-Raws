@@ -1,201 +1,241 @@
 # Support Babylon Archive Core
 
-Если вы хотите помочь развитию Babylon Archive Core, стать ранним союзником проекта и ускорить появление новых сцен, систем, арта, музыки, 3D-окружения и полноценного вертикального среза игры, вы можете стать спонсором проекта по этой ссылке:
+If you want to help shape Babylon Archive Core, become an early supporter of the project, and directly accelerate the creation of new scenes, systems, 3D environments, visual upgrades, music, UI, gameplay depth, and a full vertical slice, you can support development through the link below:
 
-## Поддержать разработку:
-[Стать спонсором проекта](https://github.com/sponsors/VladStuff437)
+## Become a sponsor:
+[Become a sponsor of the project](https://github.com/sponsors/VladStuff437)
 
-Каждая поддержка напрямую помогает развивать игру быстрее: превращать whitebox-прототипы в полноценные 3D-сцены, расширять Хард-Архив, создавать новые миссии, наращивать атмосферу, улучшать интерфейс, добавлять визуальные эффекты, полировать игровой ритм и доводить Babylon Archive Core до состояния сильной, самобытной и глубокой sci-fi игры.
+Every contribution directly helps move the game forward faster: turning whitebox prototypes into full 3D spaces, expanding the Hard Archive, building new missions, improving atmosphere, polishing the visual language, strengthening worldbuilding, adding effects and presentation, and pushing Babylon Archive Core toward becoming a distinctive, ambitious, and memorable sci-fi game.
 
 ---
 
 # Babylon Archive Core
 
-Babylon Archive Core — это атмосферная narrative-driven sci-fi игра о пробуждении, контроле, памяти, системах допуска, архивной власти, исследовании глубин и движении в неизвестность через древнюю технологическую цивилизацию, которая пережила собственный смысл и теперь существует как машина каталогизации, фильтрации и удержания знаний.
+Babylon Archive Core is an atmospheric, narrative-driven sci-fi game about awakening, control, memory, access systems, institutional power, deep exploration, and descent into the unknown through an immense archive civilization that outlived its original purpose and now persists as a machine of cataloging, filtration, containment, and interpretation.
 
-Это не просто история про терминалы, коридоры и загадочные системы. Это игра о человеке, который просыпается внутри гигантской архивной структуры и постепенно начинает понимать, что архив хранит не только документы, данные и тома, но и следы решений, культур, катастроф, интервенций, судеб, лжи, забытых войн и несогласованной реальности. Игрок входит в мир не как избранный герой с мечом и судьбой, а как оператор, у которого есть допуск, ограниченная свобода, набор протоколов и очень мало понимания о том, во что он оказался встроен.
+This is not just a game about terminals, corridors, and mysterious systems. It is a game about waking up inside a colossal archival structure and slowly realizing that the Archive does not merely store data, books, records, and operations. It stores decisions, cultural remains, erased histories, intervention traces, controlled knowledge, broken continuity, and the unresolved remains of worlds that were processed, classified, and buried.
 
-Babylon Archive Core строится на стыке нескольких направлений:
-- атмосферной научной фантастики;
-- архитектурного исследования пространства;
-- системного narrative-дизайна;
-- игры про архивы, доступ, уровни допуска и раскрытие мира через структуру;
-- камерного, но постепенно расширяющегося 3D-приключения;
-- медленного, напряженного, осмысленного погружения в механизированную цивилизацию памяти.
+The player enters this world not as a chosen hero with immediate power, but as an operator with limited access, restricted authority, incomplete understanding, and only the smallest fraction of the truth. That perspective matters. Babylon Archive Core is built around the tension between being useful to the system and learning enough to question it.
 
-Проект создается как игра с сильной идентичностью. Он не стремится быть еще одной стандартной инди-игрой с обезличенной стилистикой. Наша цель — создать выразительный мир, где каждый терминал, каждая зона, каждая дверь, каждый световой контур и каждая архитектурная форма работают на одну общую идею: вы находитесь внутри огромной системы, которая хранит прошлое и одновременно управляет будущим.
+The game lives at the intersection of:
+- atmospheric science fiction;
+- architectural exploration;
+- system-driven narrative design;
+- layered access-based progression;
+- environmental storytelling;
+- structured mission play;
+- deep-world mystery;
+- controlled, meaningful expansion from a small beginning into a much larger reality.
 
----
-
-# Концепт Игры
-
-В центре Babylon Archive Core находится Архив — колоссальная, многослойная структура, сочетающая в себе свойства города, хранилища, вычислительной машины, институции, ритуального комплекса и механизма распределения доступа к знанию. Архив не является пассивным местом. Он не просто стоит и ждет, пока игрок соберет лор. Архив реагирует, ограничивает, допускает, оценивает и направляет.
-
-Игрок начинает путь в A-0, Палате Инициализации — стартовом хабе пробуждения. Это верхний узел, в котором оператор приходит в сознание, проходит идентификацию, получает стартовый комплект, активирует сопровождающий дрон, выходит на связь с центральной консолью C.O.R.E. и получает первый доступ к операциям. Уже на этом раннем этапе игра формирует главный тон: ничего не дается без протокола, каждое действие встроено в систему, а за каждой функцией скрывается более крупная структура.
-
-Ключевая сила концепта в том, что мир раскрывается не только текстом, но и архитектурой допуска:
-- сначала игрок видит только пробуждение и верхний хаб;
-- затем получает доступ к операциям;
-- затем начинает видеть контур Хард-Архива;
-- затем входит в реальные архивные комнаты;
-- затем понимает, что миссии, исследования, моральные последствия, доступ и знание связаны между собой;
-- затем обнаруживает, что Архив не просто хранит информацию, а участвует в интерпретации реальности.
-
-Игра выстраивается как движение из локального и понятного в огромное и тревожное. Из комнаты пробуждения — в хаб. Из хаба — в операции. Из операций — в сектора. Из сектора — в структуру Архива. Из структуры Архива — в конфликт между контролем, истиной, пользой, вмешательством и памятью.
+This project is being built to have a strong identity. It is not meant to become another generic indie sci-fi title with interchangeable aesthetics and disposable fiction. The goal is to create a world where every terminal, every zone, every gate, every shaft, every platform, every lighting state, and every architectural silhouette reinforces a unified idea: you are inside a civilization of preserved knowledge that is no longer passive, no longer neutral, and no longer fully understandable.
 
 ---
 
-# Игровой Тон И Атмосфера
+# Core Premise
 
-Babylon Archive Core делает ставку на редкое сочетание:
-- индустриальная монументальность;
-- интеллектуальная sci-fi-атмосфера;
-- ритуальность интерфейсов;
-- ощущение древней и очень дорогой технологии;
-- чувство допуска и ограниченного присутствия;
-- визуальная глубина через 3D-пространства, шахты, терминалы, платформы, ниши, галереи и огромные закрытые зоны.
+At the center of Babylon Archive Core is the Archive itself: a vast layered structure that is part city, part vault, part institution, part machine, part ceremonial complex, and part computational memory-state. It is not a dead ruin. It is active. It evaluates, limits, opens, records, classifies, authorizes, and withholds.
 
-Это мир, где пространство должно ощущаться почти физически. Не набором абстрактных сцен, а реальными местами:
-- капсула пробуждения должна чувствоваться холодной и тяжелой;
-- биометрическая станция должна вызывать ощущение медицинской точности и контроля;
-- платформа C.O.R.E. должна ощущаться как церемониальный центр сцены;
-- обзорная галерея должна буквально продавать игроку масштаб глубины Хард-Архива;
-- ворота вниз должны обещать не просто следующий уровень, а другую плотность мира.
+The game begins in A-0, the Initiation Chamber: an upper hub where the operator wakes, identifies themselves, receives their initial tools, activates a support drone, makes first contact with C.O.R.E., and gains access to operations. On the surface, this is a tutorial and onboarding sequence. In truth, it is the first ritual of admission into a larger system of containment and control.
 
-Наша художественная цель — чтобы даже в ранних версиях игрок видел, что перед ним не технический макет, а начало большого и цельного sci-fi мира.
+The power of the concept comes from how the world unfolds through architecture and permission:
+- first the player sees only the chamber of awakening;
+- then the immediate hub opens up;
+- then operations become visible;
+- then the Hard Archive becomes a looming presence below;
+- then missions begin to reveal sectors, rooms, anomalies, and histories;
+- then the player understands that the Archive does not merely preserve the past, but participates in shaping what counts as truth.
+
+The game is designed as a movement from local understanding to terrifying scale. From a sealed chamber to a hub. From a hub to operations. From operations to sectors. From sectors to archive depth. From archive depth to systems of intervention, interpretation, and consequence.
 
 ---
 
-# О Чем Эта Игра На Самом Деле
+# Tone And Atmosphere
 
-На поверхностном уровне Babylon Archive Core — это игра про исследование, взаимодействие с системами, терминалами и архивными пространствами.
+Babylon Archive Core aims for a very specific blend:
+- industrial monumentality;
+- ritualized interface design;
+- institutional science fiction;
+- dense architectural presence;
+- technological beauty without softness;
+- controlled mystery;
+- a sense of being processed by systems older than you;
+- the emotional pull of standing at the edge of a deeper structure that clearly extends far beyond what you are currently allowed to enter.
 
-На более глубоком уровне это игра про:
-- доступ к знанию;
-- легитимность контроля;
-- бюрократию как архитектуру власти;
-- память как ресурс;
-- интерпретацию прошлого;
-- моральную цену вмешательства;
-- человека внутри системы, которая старше его, больше его и организована лучше, чем он способен понять в первые часы.
+This world must feel physical. Not abstract. Not menu-driven. Not like disconnected level logic. Real places matter here:
+- the awakening capsule should feel cold, heavy, expensive, and sealed;
+- the biometric station should feel precise, clinical, and authoritative;
+- the C.O.R.E. platform should feel ceremonial and central;
+- the observation gallery should sell the vertical scale of the Archive below;
+- the locked descent gate should promise a much bigger game beyond the prologue.
 
-Мы хотим, чтобы игрок чувствовал одновременно два импульса:
-- восторг от входа в загадочную, огромную, красивую и технологически насыщенную структуру;
-- тревогу от осознания, что эта структура не нейтральна.
-
----
-
-# Геймплей
-
-Геймплей Babylon Archive Core строится как сочетание нескольких уровней взаимодействия.
-
-## 1. Пространственное исследование
-
-Игрок перемещается по 3D-сценам, хабам, зонам Архива и операционным пространствам. Мы строим игру так, чтобы архитектура имела значение:
-- маршруты запоминались;
-- зоны отличались визуально и функционально;
-- каждый сектор обещал другой тип взаимодействия;
-- каждый новый допуск действительно ощущался как расширение возможностей, а не просто как открывшаяся дверь.
-
-## 2. Объектно-адресное взаимодействие
-
-Мир строится не как хаотичный набор декораций. У ключевых узлов есть адресность:
-- зоны;
-- терминалы;
-- консоли;
-- триггеры;
-- двери;
-- исследовательские точки;
-- миссионные узлы;
-- объекты выдачи;
-- навигационные маркеры.
-
-Это позволяет последовательно наращивать 3D без разрушения логики и делает проект удобным для системного роста.
-
-## 3. Ритм пролога и хаба
-
-Начальная сцена построена как четкий ритм:
-- пробуждение;
-- идентификация;
-- снабжение;
-- контакт с дроном;
-- активация C.O.R.E.;
-- доступ к операциям;
-- обзор глубины;
-- блокировка Хард-Архива;
-- разблокировка Протокола Ноль.
-
-Этот ритм важен не только как обучение, но и как драматургия. Игрок сначала учится быть оператором внутри Архива, и только потом начинает понимать, что допуск к глубине — это не просто прогресс, а приглашение к более сложной игре.
-
-## 4. Терминалы и интерфейсы
-
-Терминалы — одна из основ мира. Они не только функциональны, но и являются носителями эстетики игры. Через них проходят:
-- идентификация;
-- снабжение;
-- операции;
-- исследования;
-- превью следующих зон;
-- доступ к миссионным страницам;
-- информационные и narrative-слои мира.
-
-Мы хотим, чтобы терминалы были одновременно интерфейсом игрока и частью художественного языка игры.
-
-## 5. Миссии и страницы Архива
-
-Миссионная часть оформляется не как банальный список квестов, а как доступ к архивным страницам, операциям и следам вмешательства. Игрок получает доступ не просто к “заданиям”, а к структурированным единицам Архива, каждая из которых может открывать:
-- новый сектор;
-- исследовательский конфликт;
-- моральную развилку;
-- скрытый фрагмент истории;
-- новую линию доступа.
-
-## 6. Исследование и аномалии
-
-Исследовательский контур будет связывать:
-- анализ явлений;
-- поиск несостыковок;
-- работу с терминалами и объектами;
-- решение задач интерпретации;
-- регистрацию событий;
-- влияние на моральный профиль оператора и доступ к последующим ветвям.
-
-## 7. Прогрессия
-
-Игрок развивается не только через открытие дверей, но и через:
-- опыт;
-- уровни;
-- параметры;
-- способности;
-- перки;
-- доступ к новым типам вмешательства;
-- расширение допустимых операций.
-
-Прогрессия в Babylon Archive Core должна усиливать чувство роста компетенции внутри сложной структуры, а не ломать атмосферу в сторону бессмысленного power fantasy.
-
-## 8. Экономика и сервисные зоны
-
-В проект уже заложены контуры коммерческого и технического залов. Это означает, что в мире будут не только сюжетные и миссионные пространства, но и функциональные зоны:
-- покупка и выдача утилитарных вещей;
-- сервисные узлы;
-- техлаборатории;
-- инструментальные стенды;
-- подсистемы подготовки к вылазкам и операциям.
-
-## 9. Narrative и моральные последствия
-
-Мир Babylon Archive Core не должен быть только красивым. Он должен быть реактивным. Игрок будет взаимодействовать с архивной логикой, аномалиями, допусками, исследовательскими решениями, последствиями вмешательства. Это означает, что история будет не просто рассказана, а частично прожита через выборы, состояние систем, открытие или неоткрытие определенных узлов и изменение отношения мира к оператору.
+Our artistic goal is simple: even in early versions, players should already sense that this is not a placeholder universe. It is the beginning of a real one.
 
 ---
 
-# Текущее Состояние Проекта
+# What The Game Is Really About
 
-Babylon Archive Core уже является не пустой идеей, а реальным структурированным проектом с архитектурой, контентом, игровыми доменными моделями, рантаймом, тестами и работающими игровыми узлами.
+On the surface, Babylon Archive Core is a 3D narrative sci-fi exploration game built around hubs, terminals, missions, rooms, and access progression.
 
-На данный момент в проекте уже реализованы или заложены следующие компоненты.
+At a deeper level, it is about:
+- access to knowledge;
+- the architecture of authority;
+- bureaucracy as physical space;
+- memory as a managed resource;
+- truth as something indexed, filtered, and gated;
+- intervention as both privilege and violence;
+- the role of the individual inside a system that is larger, older, and more coherent than they are.
 
-## Архитектура решения
+The game is meant to create two emotions at once:
+- awe at entering a powerful, beautiful, highly structured, mysterious civilization of knowledge;
+- unease at the realization that such a system cannot possibly be neutral.
 
-Проект разделен на несколько слоев:
+---
+
+# Gameplay
+
+Babylon Archive Core is designed as a layered gameplay experience combining environment, systems, narrative, and progression.
+
+## 1. Spatial Exploration
+
+Players move through 3D scenes, hubs, archive sectors, and mission spaces. Architecture is not cosmetic. It is part of gameplay design:
+- routes should be readable;
+- spaces should be memorable;
+- sectors should communicate function through form;
+- unlocking access should feel like meaningful expansion, not just another door opening.
+
+The game should reward attention to space, structure, and environmental logic.
+
+## 2. Addressable World Interaction
+
+The world is not built as a chaotic pile of props. Key spaces are structured through addressable objects and zones:
+- chambers;
+- platforms;
+- terminals;
+- consoles;
+- docking nodes;
+- scanners;
+- gates;
+- triggers;
+- observation points;
+- mission boards;
+- archive rooms.
+
+This makes the game scalable, supports clean system growth, and allows visual upgrades to be layered on top of already existing logic instead of constantly replacing it.
+
+## 3. Prologue Rhythm
+
+The opening is built around a clear ritual sequence:
+- awakening;
+- identification;
+- provisioning;
+- drone contact;
+- C.O.R.E. activation;
+- operation access;
+- archive overlook;
+- locked descent;
+- Protocol Zero unlock.
+
+This sequence is not only functional onboarding. It defines the tone of the entire game. Before the player begins to “play freely,” they learn what it means to exist inside the Archive’s rules.
+
+## 4. Terminals And Interface Spaces
+
+Terminals are one of the pillars of the game. They are not merely UI screens. They are part of the fiction and part of the aesthetic language. Through terminals, the player handles:
+- biometric confirmation;
+- provisioning;
+- mission access;
+- research review;
+- restricted information;
+- archive previews;
+- operation launches;
+- scene-level guidance;
+- access-state transitions.
+
+The goal is for terminals to feel like world-embedded authority, not detached menu overlays.
+
+## 5. Mission And Archive Progression
+
+Mission structure is not intended to feel like a generic quest list. Instead, operations are framed as archival pages, indexed procedures, trace analyses, intervention files, and classified entries. Each mission can reveal:
+- a new room;
+- a new contradiction;
+- a new historical layer;
+- a new anomaly;
+- a new moral or institutional pressure point;
+- a new reason to distrust or depend on the Archive.
+
+## 6. Research And Anomalies
+
+The research layer is meant to connect:
+- analysis;
+- interpretation;
+- inconsistency detection;
+- archive anomalies;
+- problem-solving;
+- controlled information retrieval;
+- event consequences;
+- moral direction.
+
+Research should feel like one of the game’s strongest identity pillars. The player is not only fighting or collecting. They are investigating what the Archive knows, what it hides, and what it did.
+
+## 7. Progression
+
+Player growth is built around competence, not empty inflation. Progression includes:
+- experience;
+- levels;
+- operator stats;
+- perks;
+- capabilities;
+- system permissions;
+- operational confidence;
+- increasingly sophisticated interactions with archive structures.
+
+The goal is to reinforce the fantasy of becoming more capable inside a complex institutional machine, not to turn the game into a shallow power trip.
+
+## 8. Economy And Support Zones
+
+The project already points toward service and support spaces beyond the prologue hub:
+- commerce;
+- technical preparation;
+- utility acquisition;
+- equipment support;
+- tool systems;
+- optional infrastructure layers tied to operations.
+
+This means Babylon Archive Core is not only about story chambers and mission corridors. It is also about practical spaces that make the world feel inhabited, functional, and systemic.
+
+## 9. Narrative And Moral Consequence
+
+The world should react. The Archive should not be a static lore container. The player’s actions, interpretations, research results, mission outcomes, and methods of intervention should matter. This creates a game where story is not only delivered, but partly produced through system contact.
+
+---
+
+# The World
+
+The world of Babylon Archive Core is built around the idea that knowledge has become infrastructure. The Archive is not a library in the romantic sense. It is a civilization-scale mechanism for preserving, ranking, restricting, and weaponizing continuity.
+
+Its upper layers are procedural, administrative, controlled, and clean. As the player descends, the structure should become denser, stranger, older, and more disturbing. Order does not vanish, but it becomes harder to trust.
+
+Important world pillars include:
+- C.O.R.E. as a central systemic and narrative node;
+- the Hard Archive as a deeper, more dangerous memory-body below;
+- sector-based access;
+- rooms with distinct functional identities;
+- operations as curated movement into controlled unknowns;
+- event and morality systems that frame consequences;
+- research anomalies as gateways to greater truths and greater instability.
+
+The game world is designed to support long-form expansion. It can begin with one chamber and one hub, then grow into a much deeper architecture without losing coherence.
+
+---
+
+# Current State Of The Project
+
+Babylon Archive Core is already more than an idea. It is a structured game project with foundations in place across content, logic, runtime, progression, scene systems, and testing.
+
+The project already includes or strongly establishes:
+
+## Structured Solution Architecture
+
+The project is organized into clear layers:
 - Content;
 - Core;
 - Domain;
@@ -205,220 +245,291 @@ Babylon Archive Core уже является не пустой идеей, а р
 - Desktop;
 - Tests.
 
-Это означает, что игра строится не как хаотичный монолит, а как масштабируемая система, где можно отдельно развивать игровые модели, рантайм, представление, загрузку контента, инфраструктуру и тестовое покрытие.
+This matters because it means the game is not being built as a fragile prototype pile. It is being built as something intended to grow.
 
-## Стартовая сцена A-0
+## The Canonical A-0 Opening Scene
 
-Уже существует каноническая стартовая сцена:
-- с координатной системой;
-- с геометрией;
-- с зонами;
-- с интерактивными объектами;
-- с фазами пролога;
-- с маршрутной логикой;
-- с камерой;
-- с коллизиями;
-- с начальным набором контента.
+The initiation scene already exists as a defined world-space structure with:
+- coordinates;
+- zones;
+- phase rhythm;
+- interactable objects;
+- camera states;
+- collision logic;
+- flow order;
+- content-driven definitions.
 
-## Игровая 3D-основа
+## 3D Gameplay Foundations
 
-В проект уже заложены:
-- 3D-позиции объектов;
-- зоны и объемы;
-- геометрия пола;
-- ограничение движения;
-- проверка дистанции взаимодействия;
-- профили камер;
-- переключение между режимами камеры;
-- катсценовый пролет;
-- whitebox-представление сцены.
+The project already includes:
+- 3D positions;
+- scene geometry;
+- movement boundaries;
+- interaction range checks;
+- camera profiles;
+- camera switching;
+- cutscene movement;
+- whitebox scene visualization;
+- phase-aware object logic.
 
-Это означает, что переход к полноценному визуальному 3D-слою — не фантазия, а следующий логический этап развития.
+That means the transition to richer 3D rendering is not hypothetical. It is the natural next stage.
 
-## Система взаимодействий
+## Interaction Systems
 
-В игре уже существуют:
-- интерактивные объекты;
-- обработка взаимодействий;
-- поддержка trigger, terminal, npc, gate;
-- терминальные экраны;
-- выдача предметов;
-- объектные действия;
-- журнал событий;
-- целевой HUD;
-- подсказки.
+The project already contains:
+- interactable object support;
+- trigger, terminal, NPC, and gate interaction types;
+- terminal screens;
+- item granting;
+- objective flow;
+- event journaling;
+- contextual hints;
+- prologue tracking.
 
-## Контентный pipeline
+## Content Pipeline
 
-Контент вынесен в JSON и маппится в доменные модели. Это критически важно для будущего роста. Мы не хотим делать игру, где каждая новая сцена прошита вручную в коде. Наша цель — data-driven expansion, чтобы новые зоны, объекты, терминалы, ритмы сцен и визуальные состояния могли подключаться системно.
+Content is driven through JSON and mapped into domain models. This is one of the strongest long-term advantages of the project. The goal is not to hardwire every room and scene in code forever. The goal is to support scalable content growth.
 
-## Пролог и Протокол Ноль
+## Prologue And Protocol Zero
 
-Реализована логика прохождения стартового пролога и разблокировки Протокола Ноль, который становится важной точкой перехода от вступления к следующим слоям игры.
+The opening flow and the unlock state around Protocol Zero are already established. This gives the game a real structural bridge between intro and expansion.
 
-## Миссионный и архивный контур
+## Mission And Archive Direction
 
-Уже намечены:
-- миссионные страницы;
-- стартовая миссионная доска;
-- превью комнат Хард-Архива;
-- правила допуска к запуску операций;
-- базовые архивные комнаты и их связи.
+The project already points toward:
+- mission pages;
+- an initial mission board;
+- operation gating;
+- archive room previews;
+- archive room loading logic;
+- future sector growth.
 
-## Narrative и системная глубина
+## Narrative Depth
 
-Проект уже содержит слои narrative, dialogue, mission, events, progression, economy, world и archive logic. Это значит, что Babylon Archive Core строится как игра с реальной глубиной и дальнейшей перспективой, а не как одноразовая демонстрационная сцена.
+The project already contains the early groundwork for dialogue, narrative systems, mission logic, world-state reaction, morality, progression, economy, and archive structures.
 
-## Тестовое покрытие
+## Testing
 
-Проект сопровождается набором тестов для ключевых частей логики. Это отдельная сильная сторона разработки. Мы строим мир не только красиво, но и дисциплинированно, чтобы его можно было масштабировать без разрушения основы.
+A serious amount of test coverage exists around many gameplay foundations. This is an important part of the project’s value. We are not just building atmosphere. We are building something that can survive scaling.
 
 ---
 
-# Что Мы Строим Дальше
+# What Has Already Been Implemented
 
-Следующий большой этап проекта — превращение логически готового каркаса в атмосферный, выразительный, убедительный 3D-мир.
+Babylon Archive Core already has significant foundations in place, including:
 
-Наш основной фокус на ближайшие версии:
+- the opening A-0 hub and prologue structure;
+- a defined canonical scene layout;
+- object-based world interaction;
+- player movement and collision support;
+- camera behavior and multiple camera profiles;
+- prologue sequencing;
+- interaction handlers for terminals, gates, and NPC-type objects;
+- dialogue hooks;
+- objective tracking;
+- event journaling;
+- content loading from JSON;
+- mission board direction;
+- archive preview direction;
+- progression runtime foundations;
+- economy and billing prototypes;
+- world profile access modes;
+- room-loading direction for archive spaces;
+- extensive tests across systems.
 
-## 1. Полноценный визуальный апгрейд A-0
+This is important because it means the project is already at the stage where visual growth and world expansion can build on a meaningful base instead of pretending a base exists when it does not.
 
-- капсула пробуждения как hero-object;
-- биометрическая станция как сильный визуальный узел;
-- C.O.R.E. как центральная инсталляция сцены;
-- новый пол, стены, потолок и свет;
-- обзорная галерея;
-- шахта Хард-Архива;
-- полноценные ворота вниз;
-- визуальные переходы по фазам пролога.
+---
 
-## 2. Расширение secondary 3D-объектов
+# Planned Goals
 
-- логистический терминал;
-- docking-ниша дрона;
-- сам архивный дрон;
-- терминал операций;
-- терминал исследований;
-- коммерческий шлюз;
-- технический шлюз.
+The next major goal is to transform the already working logical framework into a visually powerful, atmospheric 3D experience.
 
-## 3. Первые следующие хаб-системы
+## 1. Full A-0 Visual Upgrade
 
-- коммерческий зал;
-- технический зал;
-- расширенные терминалы;
-- миссионная доска как 3D-объект мира;
-- визуализированный превью-контур следующих зон.
+The immediate focus is to elevate the opening scene into a fully readable and atmospheric 3D environment:
+- awakening capsule as a hero object;
+- biometric station as a strong visual checkpoint;
+- C.O.R.E. as a major central installation;
+- improved floor, walls, and ceiling;
+- stronger lighting;
+- observation gallery;
+- visible Hard Archive shaft;
+- real locked descent gate;
+- visual phase transitions across the prologue.
 
-## 4. Первые реальные комнаты Хард-Архива
+## 2. Secondary 3D Interactive Layer
 
+After the three main hero objects, the next pass expands the rest of the opening hub:
+- logistics terminal;
+- drone niche;
+- the archive drone itself;
+- operations terminal;
+- research terminal;
+- gate architecture;
+- room-adjacent support pieces.
+
+## 3. Expanded Hub Systems
+
+The next opening systems beyond the prologue include:
+- commerce hall;
+- technical hall;
+- mission board presentation;
+- archive preview contour;
+- stronger world-state-dependent visual routing.
+
+## 4. Early Hard Archive Rooms
+
+The Archive should begin to become partially visible and eventually explorable through:
 - entry octagon;
 - index vestibule;
 - stack ring;
 - shelf cluster;
 - observation shaft;
-- return nodes;
-- tutorial tome cells.
+- return node spaces;
+- tutorial tome cells;
+- future archive rooms and sector branches.
 
-## 5. Углубление narrative и системного слоя
+## 5. Deeper Narrative Integration
 
-- больше архивных событий;
-- исследовательские аномалии;
-- моральные последствия;
-- реактивные правила доступа;
-- более плотные линии интерпретации прошлого;
-- усиление значения операций и результатов вмешательства.
+Further goals include:
+- richer anomaly investigation;
+- stronger moral and event consequences;
+- mission branching pressure;
+- archive access logic with narrative meaning;
+- increasingly reactive world-state systems.
 
----
+## 6. Vertical Slice
 
-# Почему За Этим Стоит Следить Уже Сейчас
-
-Babylon Archive Core интересен именно на раннем этапе по нескольким причинам.
-
-## Это не безликий прототип
-
-У проекта уже есть мир, тон, структура, доменная логика, художественное направление и четкое понимание следующего роста.
-
-## Это не одноразовый технический эксперимент
-
-Внутри уже есть фундамент, который позволяет реально масштабировать игру:
-- контентная система;
-- игровые модели;
-- сцены;
-- архив;
-- миссии;
-- прогрессия;
-- события;
-- экономика;
-- тесты.
-
-## Это проект с сильной идентичностью
-
-Мы делаем не просто очередную инди-игру “про sci-fi”. Мы делаем мир, в котором архив, допуск, глубина, исследование, технологическая монументальность и narrative-структура работают вместе.
-
-## Это проект, который можно растить долго и последовательно
-
-Babylon Archive Core хорошо подходит для развития через версии:
-- сначала пролог и хаб;
-- потом визуальный слой;
-- потом новые залы;
-- потом комнаты Архива;
-- потом расширенные операции;
-- потом полноценный vertical slice;
-- потом гораздо более крупную игру.
+The medium-term goal is a strong vertical slice that proves:
+- the game’s atmosphere;
+- the game’s world identity;
+- the mission structure;
+- the prologue-to-operation loop;
+- the visual language of the Archive;
+- the promise of deeper descent.
 
 ---
 
-# Для Кого Эта Игра
+# Why This Project Is Worth Watching Now
 
-Babylon Archive Core особенно подойдет тем, кто любит:
-- атмосферную научную фантастику;
-- загадочные технологические миры;
-- игры про исследование пространства;
-- игры с сильным worldbuilding;
-- терминалы, архивы, допуски и layered-lore;
-- игры, где архитектура и система значат не меньше, чем сюжет;
-- медленное, плотное, интеллектуальное раскрытие мира;
-- чувство входа в огромную и не до конца понятную структуру.
+Babylon Archive Core matters precisely because it is early and already structured.
 
-Если вам близки миры, где пространство рассказывает историю, где технологии выглядят как институт, где каждый новый уровень допуска открывает не только комнату, но и новый пласт смысла, Babylon Archive Core — проект, за которым действительно стоит следить.
+## It Is Not A Directionless Prototype
 
----
+There is already a world, a tone, a layered concept, a scene structure, a mission direction, a content pipeline, and a clear sense of what comes next.
 
-# Почему Важна Поддержка
+## It Is Not A Disposable Technical Demo
 
-Поддержка проекта — это не абстрактный жест. Она напрямую помогает:
-- ускорять производство 3D-ассетов;
-- расширять сцены;
-- улучшать художественную часть;
-- делать интерфейсы и терминалы сильнее;
-- создавать новые комнаты Архива;
-- развивать narrative-ветви;
-- доводить технический фундамент до production-качества;
-- приближать момент, когда Babylon Archive Core из многообещающего каркаса станет по-настоящему сильной игрой.
+Under the surface there is already enough real architecture to support growth:
+- systems;
+- content;
+- scenes;
+- progression;
+- missions;
+- archive logic;
+- testing;
+- world-state direction.
 
-Если вы хотите увидеть, как из уже существующего логического ядра вырастает полноценный sci-fi мир с собственной архитектурой, тоном, глубиной и визуальной силой, лучший способ помочь — поддержать проект и рассказать о нем другим.
+## It Has A Distinct Identity
 
----
+This project is not trying to imitate a safer, flatter version of science fiction. It is trying to build a world where archive logic, monumental architecture, restricted knowledge, ceremonial technology, and descending access all work together as one coherent vision.
 
-# Как Можно Помочь
+## It Can Grow Organically
 
-- стать спонсором проекта;
-- рассказать о Babylon Archive Core друзьям и сообществам;
-- следить за обновлениями;
-- делиться обратной связью;
-- участвовать в распространении информации о проекте;
-- поддерживать интерес к игре на ранней стадии, когда формируется ее будущее.
+Babylon Archive Core is especially suited to version-based expansion:
+- first the chamber and the hub;
+- then the visual pass;
+- then adjacent support halls;
+- then mission terminals and archive preview;
+- then playable archive rooms;
+- then deeper operations and consequence systems;
+- then a full vertical slice;
+- then a much larger game.
 
 ---
 
-# Заключение
+# Who This Game Is For
 
-Babylon Archive Core — это игра про вход в огромный Архив, который одновременно хранит, фильтрует, направляет и скрывает. Это история пробуждения внутри системы доступа. Это sci-fi мир, который строится через пространство, архитектуру, интерфейсы, миссии, глубину знаний и моральную стоимость интерпретации прошлого.
+Babylon Archive Core is especially for players who love:
+- atmospheric science fiction;
+- mysterious technological worlds;
+- architectural storytelling;
+- layered access systems;
+- deep worldbuilding;
+- terminals, archives, and institutional interfaces;
+- games where space matters as much as story;
+- slower, denser, more thoughtful discovery;
+- worlds that feel ancient, controlled, and dangerous beneath the surface.
 
-Проект уже имеет прочный фундамент. Следующий этап — превратить этот фундамент в визуально мощный, атмосферный, запоминающийся 3D-мир, который будет выделяться не только концептом, но и реальным качеством исполнения.
+If you are drawn to games where entering a room feels meaningful, where infrastructure carries narrative weight, where every unlocked layer reveals another level of complexity, Babylon Archive Core is a project worth following closely.
 
-Если вам интересны сильные sci-fi миры, если вам хочется поддержать игру на этапе, когда она еще только собирает свою окончательную форму, если вам важно быть среди первых, кто помогает появиться необычному и амбициозному проекту, — Babylon Archive Core ждет вашего внимания и вашей поддержки.
+---
 
-## Поддержать проект:
-[Стать спонсором проекта](ВСТАВЬТЕ_ССЫЛКУ_НА_СПОНСОРСТВО)
+# Why Support Matters
+
+Support is not symbolic. It has direct impact.
+
+Support helps accelerate:
+- 3D environment production;
+- hero asset creation;
+- new scene building;
+- archive room development;
+- interface and terminal polish;
+- stronger presentation and atmosphere;
+- expansion of gameplay systems into visible world-space;
+- movement from whitebox to identity-rich environments;
+- progress toward a real vertical slice.
+
+If you want to see a project with an already meaningful foundation grow into a full and memorable sci-fi world, support is one of the most practical ways to help make that happen.
+
+---
+
+# How You Can Help
+
+You can help Babylon Archive Core by:
+- becoming a sponsor;
+- following the project closely;
+- sharing it with others;
+- bringing attention to the game early;
+- supporting its visibility;
+- giving thoughtful feedback;
+- helping build an audience around a world that is still forming.
+
+Early attention matters. Projects like this become stronger not only through code and content, but through a real community of people who decide the work is worth seeing through.
+
+---
+
+# Long-Term Vision
+
+The long-term vision for Babylon Archive Core is not just “finish a small indie game.” The long-term goal is to build a layered science fiction world that can support:
+- strong scene-based exploration;
+- memorable atmospheric hubs;
+- structured operation launches;
+- deep archive spaces;
+- reactive systems;
+- narrative consequence;
+- future expansions of sectors, rooms, and institutional layers;
+- a world that feels bigger the more clearly you understand it.
+
+We want Babylon Archive Core to become the kind of game where players remember specific places:
+- the awakening chamber;
+- the first look into the shaft;
+- the first true archive room;
+- the first major anomaly;
+- the first moment they realize the system is not telling the whole truth.
+
+That kind of memory is what we are building toward.
+
+---
+
+# Final Note
+
+Babylon Archive Core is a game about entering an immense Archive that stores, filters, limits, and interprets reality through systems of access. It is a game about waking inside structure. It is a game about descent. It is a game about knowledge, control, memory, and the cost of understanding.
+
+The project already has a real foundation. The next stage is to turn that foundation into a visually striking, atmospheric, and unmistakable 3D world worthy of the ideas inside it.
+
+If that vision resonates with you, if you want to support a project at the stage where its final form is still being shaped, and if you want to help bring a distinctive sci-fi universe to life, Babylon Archive Core is worth your attention now.
+
+## Become a sponsor:
+[Become a sponsor of the project](INSERT_YOUR_SPONSOR_LINK_HERE)
