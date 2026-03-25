@@ -106,3 +106,4 @@ C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Tests\obj\Debug\net10.0
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Tests\obj\Debug\net10.0\BabylonArchiveCore.Tests.pdb
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Tests\obj\Debug\net10.0\BabylonArchiveCore.Tests.genruntimeconfig.cache
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Tests\obj\Debug\net10.0\ref\BabylonArchiveCore.Tests.dll
+C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Tests\obj\Debug\net10.0\BabylonArchiveCore.Tests.sourcelink.json

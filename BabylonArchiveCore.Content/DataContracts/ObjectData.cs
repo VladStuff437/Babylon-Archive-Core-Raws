@@ -23,5 +23,6 @@ public sealed class InteractableObjectData
     public string? NextPhase { get; set; }
     public string? DialogueId { get; set; }
     public string? LockedMessage { get; set; }
+    public string? ModelId { get; set; }
     public List<string>? GrantsItems { get; set; }
 }

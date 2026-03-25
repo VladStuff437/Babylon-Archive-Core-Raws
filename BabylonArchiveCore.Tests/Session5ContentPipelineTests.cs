@@ -8,6 +8,7 @@ using BabylonArchiveCore.Domain.Progression;
 using BabylonArchiveCore.Domain.Scene;
 using BabylonArchiveCore.Runtime.Gameplay;
 using BabylonArchiveCore.Runtime.Scene;
+using System.Reflection;
 
 namespace BabylonArchiveCore.Tests;
 
@@ -150,6 +151,27 @@ public class Session5ContentPipelineTests
         Assert.NotNull(obj.GrantsItems);
         Assert.Equal(2, obj.GrantsItems!.Count);
         Assert.Equal(1.5f, obj.InteractionRadius);
+    }
+
+    [Fact]
+    public void MapObject_ForwardsModelId()
+    {
+        var data = new InteractableObjectData
+        {
+            ObjectId = "OBJ_CORE_CONSOLE",
+            DisplayName = "Консоль C.O.R.E.",
+            ZoneId = "ZONE_CORE",
+            Type = "terminal",
+            Position = new Vec3Data(0f, 1.5f, 0f),
+            InteractionRadius = 2.5f,
+            HintText = "Доступ к системам Архива",
+            RequiredPhase = "Activation",
+            ModelId = ContourModelIds.CoreConsole,
+        };
+
+        var obj = A0ContentMapper.MapObject(data, HubZoneId.Core);
+
+        Assert.Equal(ContourModelIds.CoreConsole, obj.ModelId);
     }
 
     [Fact]
@@ -573,6 +595,87 @@ public class Session5ContentPipelineTests
 
         var totalObjects = zones.Sum(z => z.Objects.Count);
         Assert.Equal(9, totalObjects);
+    }
+
+    [Fact]
+    public void A0ContentProvider_LoadZones_AllObjectsHaveModelId()
+    {
+        var contentRoot = FindContentRoot();
+        if (contentRoot is null) return;
+
+        var provider = new A0ContentProvider(contentRoot);
+        var zones = provider.LoadZones();
+
+        var missing = zones
+            .SelectMany(z => z.Objects)
+            .Where(o => string.IsNullOrWhiteSpace(o.ModelId))
+            .Select(o => o.Id)
+            .ToList();
+
+        Assert.Empty(missing);
+    }
+
+    [Fact]
+    public void A0ContentProvider_LoadZones_ModelIdsExistInRegistryConstants()
+    {
+        var contentRoot = FindContentRoot();
+        if (contentRoot is null) return;
+
+        var provider = new A0ContentProvider(contentRoot);
+        var zones = provider.LoadZones();
+
+        var knownModelIds = typeof(ContourModelIds)
+            .GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy)
+            .Where(f => f.IsLiteral && !f.IsInitOnly && f.FieldType == typeof(string))
+            .Select(f => (string?)f.GetRawConstantValue())
+            .Where(v => !string.IsNullOrWhiteSpace(v))
+            .Cast<string>()
+            .ToHashSet(StringComparer.Ordinal);
+
+        var unknown = zones
+            .SelectMany(z => z.Objects)
+            .Where(o => !string.IsNullOrWhiteSpace(o.ModelId) && !knownModelIds.Contains(o.ModelId!))
+            .Select(o => $"{o.Id}:{o.ModelId}")
+            .ToList();
+
+        Assert.Empty(unknown);
+    }
+
+    [Fact]
+    public void ContourModelIds_AllConstants_AreUnique()
+    {
+        var modelIds = typeof(ContourModelIds)
+            .GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy)
+            .Where(f => f.IsLiteral && !f.IsInitOnly && f.FieldType == typeof(string))
+            .Select(f => (string?)f.GetRawConstantValue())
+            .Where(v => !string.IsNullOrWhiteSpace(v))
+            .Cast<string>()
+            .ToList();
+
+        Assert.Equal(modelIds.Count, modelIds.Distinct(StringComparer.Ordinal).Count());
+    }
+
+    [Fact]
+    public void ContourModelIds_ContainsRequiredExtraNodeEntries()
+    {
+        var required = new[]
+        {
+            ContourModelIds.CommerceHall,
+            ContourModelIds.TechHall,
+            ContourModelIds.ArchivePreview,
+            ContourModelIds.ArchiveCorridor,
+            ContourModelIds.EntryOctagon,
+            ContourModelIds.IndexVestibule,
+            ContourModelIds.ResearchRoom01,
+            ContourModelIds.StackRingPreview,
+            ContourModelIds.CommerceDesk,
+            ContourModelIds.ToolBench,
+            ContourModelIds.ResearchLab,
+            ContourModelIds.ArchiveControl,
+            ContourModelIds.MissionBoard,
+        };
+
+        Assert.All(required, modelId => Assert.False(string.IsNullOrWhiteSpace(modelId)));
     }
 
     [Fact]

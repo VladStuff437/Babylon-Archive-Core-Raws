@@ -121,7 +121,7 @@ public class Session3PlayerCameraTests
     public void PlayerEntity_DefaultSpeed()
     {
         var p = new PlayerEntity();
-        Assert.Equal(4.0f, p.MoveSpeed);
+        Assert.Equal(6.5f, p.MoveSpeed);
         Assert.Equal(2.0f, p.InteractReach);
     }
 

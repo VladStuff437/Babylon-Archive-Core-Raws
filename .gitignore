@@ -1,0 +1,25 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# Test and coverage artifacts
+**/TestResults/
+**/coverage/
+**/*.coverage
+**/*.trx
+
+# Runtime/session logs
+**/runtime/*.log
+**/runtime/*.json
+
+# User and IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+
+# Generated debug symbols and binaries
+*.pdb
+*.dll
+*.exe

@@ -34,6 +34,10 @@ public sealed class PlayerController
         if (input.MoveDirection.LengthSquared() < 1e-6f)
         {
             _player.IsMoving = false;
+
+            if (input.ApplyFacingDirection && input.FacingDirection.LengthSquared() > 1e-6f)
+                _player.Facing = input.FacingDirection.Normalized();
+
             return new MoveResult(_player.Position, false, false);
         }
 
@@ -42,7 +46,10 @@ public sealed class PlayerController
         var result = _collision.TryMove(_player.Position, desired);
 
         _player.Position = result.FinalPosition;
-        _player.Facing = input.MoveDirection;
+        if (input.ApplyFacingDirection && input.FacingDirection.LengthSquared() > 1e-6f)
+            _player.Facing = input.FacingDirection.Normalized();
+        else
+            _player.Facing = input.MoveDirection;
         _player.IsMoving = true;
 
         return result;

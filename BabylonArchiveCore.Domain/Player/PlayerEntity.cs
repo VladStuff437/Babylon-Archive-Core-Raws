@@ -13,7 +13,7 @@ public sealed class PlayerEntity
     public Vec3 Facing { get; set; } = new(1f, 0f, 0f); // Facing east initially
 
     /// <summary>Movement speed in metres per second.</summary>
-    public float MoveSpeed { get; init; } = 4.0f;
+    public float MoveSpeed { get; init; } = 6.5f;
 
     /// <summary>Maximum distance at which the player can interact with objects.</summary>
     public float InteractReach { get; init; } = 2.0f;

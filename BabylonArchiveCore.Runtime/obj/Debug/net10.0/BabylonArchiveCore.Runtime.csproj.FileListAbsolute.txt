@@ -17,3 +17,4 @@ C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Runtime\obj\Debug\net10
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Runtime\obj\Debug\net10.0\refint\BabylonArchiveCore.Runtime.dll
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Runtime\obj\Debug\net10.0\BabylonArchiveCore.Runtime.pdb
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Runtime\obj\Debug\net10.0\ref\BabylonArchiveCore.Runtime.dll
+C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Runtime\obj\Debug\net10.0\BabylonArchiveCore.Runtime.sourcelink.json

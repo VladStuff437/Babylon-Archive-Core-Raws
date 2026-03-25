@@ -13,3 +13,4 @@ C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Content\obj\Debug\net10
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Content\obj\Debug\net10.0\refint\BabylonArchiveCore.Content.dll
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Content\obj\Debug\net10.0\BabylonArchiveCore.Content.pdb
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Content\obj\Debug\net10.0\ref\BabylonArchiveCore.Content.dll
+C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Content\obj\Debug\net10.0\BabylonArchiveCore.Content.sourcelink.json

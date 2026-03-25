@@ -24,3 +24,4 @@ C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Presentation\obj\Debug\
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Presentation\obj\Debug\net10.0\BabylonArchiveCore.Presentation.pdb
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Presentation\obj\Debug\net10.0\BabylonArchiveCore.Presentation.genruntimeconfig.cache
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Presentation\obj\Debug\net10.0\ref\BabylonArchiveCore.Presentation.dll
+C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Presentation\obj\Debug\net10.0\BabylonArchiveCore.Presentation.sourcelink.json

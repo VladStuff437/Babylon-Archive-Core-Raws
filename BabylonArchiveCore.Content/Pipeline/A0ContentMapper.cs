@@ -128,6 +128,7 @@ public static class A0ContentMapper
             DialogueId = data.DialogueId,
             GrantsItems = data.GrantsItems,
             LockedMessage = data.LockedMessage,
+            ModelId = data.ModelId,
         };
     }
 

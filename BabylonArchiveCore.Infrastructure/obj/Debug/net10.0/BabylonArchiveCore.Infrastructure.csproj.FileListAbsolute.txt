@@ -15,3 +15,4 @@ C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Infrastructure\obj\Debu
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Infrastructure\obj\Debug\net10.0\refint\BabylonArchiveCore.Infrastructure.dll
 C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Infrastructure\obj\Debug\net10.0\BabylonArchiveCore.Infrastructure.pdb
 c:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Infrastructure\obj\Debug\net10.0\ref\BabylonArchiveCore.Infrastructure.dll
+C:\MainBase\Babylon Archive Core Raws\BabylonArchiveCore.Infrastructure\obj\Debug\net10.0\BabylonArchiveCore.Infrastructure.sourcelink.json

@@ -17,6 +17,12 @@ public readonly record struct InputSnapshot
     /// <summary>True if camera toggle was pressed this frame.</summary>
     public bool CameraTogglePressed { get; init; }
 
+    /// <summary>When true, PlayerController applies FacingDirection instead of deriving facing from MoveDirection.</summary>
+    public bool ApplyFacingDirection { get; init; }
+
+    /// <summary>Optional explicit facing for profile-driven schemes.</summary>
+    public Vec3 FacingDirection { get; init; }
+
     /// <summary>Create a snapshot from WASD-style held flags.</summary>
     public static InputSnapshot FromActions(bool up, bool down, bool left, bool right,
         bool interact = false, bool cameraToggle = false)
@@ -29,6 +35,8 @@ public readonly record struct InputSnapshot
             MoveDirection = dir,
             InteractPressed = interact,
             CameraTogglePressed = cameraToggle,
+            ApplyFacingDirection = false,
+            FacingDirection = Vec3.Zero,
         };
     }
 

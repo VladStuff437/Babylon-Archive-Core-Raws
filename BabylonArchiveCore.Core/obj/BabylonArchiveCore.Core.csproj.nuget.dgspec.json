@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\BabylonArchiveCore.Core.csproj": {}
+    "C:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\BabylonArchiveCore.Core.csproj": {}
   },
   "projects": {
-    "c:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\BabylonArchiveCore.Core.csproj": {
+    "C:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\BabylonArchiveCore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\BabylonArchiveCore.Core.csproj",
+        "projectUniqueName": "C:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\BabylonArchiveCore.Core.csproj",
         "projectName": "BabylonArchiveCore.Core",
-        "projectPath": "c:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\BabylonArchiveCore.Core.csproj",
+        "projectPath": "C:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\BabylonArchiveCore.Core.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "c:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\obj\\",
+        "outputPath": "C:\\MainBase\\Babylon Archive Core Raws\\BabylonArchiveCore.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

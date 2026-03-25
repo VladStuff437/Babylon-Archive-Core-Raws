@@ -33,6 +33,12 @@ public sealed class InteractableObject
     /// <summary>Message shown when a gate is locked.</summary>
     public string? LockedMessage { get; init; }
 
+    /// <summary>
+    /// Optional 3D contour model id used by desktop renderer.
+    /// Kept nullable to preserve wireframe fallback behavior.
+    /// </summary>
+    public string? ModelId { get; init; }
+
     /// <summary>Context state: "locked", "ready", "active", "used", etc.</summary>
     public string ContextState { get; set; } = "ready";
 

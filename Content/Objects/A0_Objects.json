@@ -13,6 +13,7 @@
             },
             "interactionRadius": 1.5,
             "hintText": "Нажми [E] чтобы выйти",
+            "modelId": "PRP_CAPSULE_EXIT_CONTOUR",
             "requiredPhase": "Awakening",
             "advancesPhase": true,
             "nextPhase": "Identification"
@@ -29,6 +30,7 @@
             },
             "interactionRadius": 1.5,
             "hintText": "Приложи руку для идентификации",
+            "modelId": "PRP_BIO_SCANNER_CONTOUR",
             "requiredPhase": "Identification",
             "advancesPhase": true,
             "nextPhase": "Provisioning"
@@ -45,6 +47,7 @@
             },
             "interactionRadius": 1.5,
             "hintText": "Получи снаряжение на смену",
+            "modelId": "PRP_SUPPLY_TERMINAL_CONTOUR",
             "requiredPhase": "Provisioning",
             "advancesPhase": true,
             "nextPhase": "DroneContact",
@@ -66,6 +69,7 @@
             },
             "interactionRadius": 2.0,
             "hintText": "Дрон ожидает инициализации",
+            "modelId": "PRP_DRONE_DOCK_CONTOUR",
             "requiredPhase": "DroneContact",
             "advancesPhase": true,
             "nextPhase": "Activation",
@@ -83,6 +87,7 @@
             },
             "interactionRadius": 2.5,
             "hintText": "Доступ к системам Архива",
+            "modelId": "PRP_CORE_CONSOLE_CONTOUR",
             "requiredPhase": "Activation",
             "advancesPhase": true,
             "nextPhase": "OperationAccess",
@@ -100,6 +105,7 @@
             },
             "interactionRadius": 1.5,
             "hintText": "Журнал операций и назначения",
+            "modelId": "PRP_MISSION_TERMINAL_CONTOUR",
             "requiredPhase": "OperationAccess",
             "advancesPhase": false
         },
@@ -115,6 +121,7 @@
             },
             "interactionRadius": 1.5,
             "hintText": "Исследования (доступ ограничен)",
+            "modelId": "PRP_RESEARCH_TERMINAL_CONTOUR",
             "requiredPhase": "OperationAccess",
             "advancesPhase": false
         },
@@ -130,6 +137,7 @@
             },
             "interactionRadius": 3.0,
             "hintText": "Посмотри вниз",
+            "modelId": "PRP_GALLERY_OVERLOOK_CONTOUR",
             "requiredPhase": "OperationAccess",
             "advancesPhase": false
         },
@@ -145,6 +153,7 @@
             },
             "interactionRadius": 2.0,
             "hintText": "Доступ заблокирован",
+            "modelId": "PRP_ARCHIVE_GATE_CONTOUR",
             "requiredPhase": "OperationAccess",
             "advancesPhase": false,
             "lockedMessage": "Врата откроются после завершения первой операции."

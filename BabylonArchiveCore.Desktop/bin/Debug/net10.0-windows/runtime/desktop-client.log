@@ -154,3 +154,88 @@
 [2026-03-22T06:26:33.5715460Z] [INFO] Hub A-0 initialized. Phase: Awakening
 [2026-03-22T06:26:33.5865637Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
 [2026-03-22T06:26:33.5874320Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-23T18:02:52.2348008Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-23T18:02:52.2431325Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-23T18:02:52.2483743Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-23T18:02:52.2487851Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-23T18:02:55.3829371Z] [INFO] Rhythm advanced to: Identification
+[2026-03-23T18:02:55.3850665Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-23T18:02:55.3885687Z] [INFO] Trigger fired: TRG_PHASE_IDENTIFICATION for phase Identification
+[2026-03-23T18:02:55.3913924Z] [INFO] InteractionHandler: capsule_exit (Trigger) → dialogue=, items=0
+[2026-03-23T18:02:55.3923996Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-23T18:02:55.3930249Z] [INFO] PrologueTracker: visited capsule_exit (1 total)
+[2026-03-23T18:03:05.6137753Z] [INFO] Rhythm advanced to: Provisioning
+[2026-03-23T18:03:05.6145078Z] [INFO] Interaction: bio_scanner → Идентификация подтверждена: Алан Арквейн. Получите снаряжение.
+[2026-03-23T18:03:05.6162708Z] [INFO] Trigger fired: TRG_PHASE_PROVISIONING for phase Provisioning
+[2026-03-23T18:03:05.6192853Z] [INFO] InteractionHandler: bio_scanner (Terminal) → dialogue=DIA_BIO_CONFIRM, items=0
+[2026-03-23T18:03:05.6201577Z] [INFO] Interaction: bio_scanner → Идентификация подтверждена: Алан Арквейн. Получите снаряжение.
+[2026-03-23T18:03:05.6212775Z] [INFO] PrologueTracker: visited bio_scanner (2 total)
+[2026-03-23T18:08:31.9561553Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-23T18:08:31.9626219Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-23T18:08:31.9685404Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-23T18:08:31.9690083Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-23T18:08:34.9524929Z] [INFO] Rhythm advanced to: Identification
+[2026-03-23T18:08:34.9539041Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-23T18:08:34.9593921Z] [INFO] Trigger fired: TRG_PHASE_IDENTIFICATION for phase Identification
+[2026-03-23T18:08:34.9627905Z] [INFO] InteractionHandler: capsule_exit (Trigger) → dialogue=, items=0
+[2026-03-23T18:08:34.9642867Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-23T18:08:34.9676911Z] [INFO] PrologueTracker: visited capsule_exit (1 total)
+[2026-03-23T18:16:48.0451131Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-23T18:16:48.0528241Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-23T18:16:48.0586096Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-23T18:16:48.0591632Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-23T18:16:49.9167377Z] [INFO] Rhythm advanced to: Identification
+[2026-03-23T18:16:49.9193043Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-23T18:16:49.9240532Z] [INFO] Trigger fired: TRG_PHASE_IDENTIFICATION for phase Identification
+[2026-03-23T18:16:49.9269269Z] [INFO] InteractionHandler: capsule_exit (Trigger) → dialogue=, items=0
+[2026-03-23T18:16:49.9284131Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-23T18:16:49.9295536Z] [INFO] PrologueTracker: visited capsule_exit (1 total)
+[2026-03-23T18:34:36.7920232Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-23T18:34:36.7970337Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-23T18:34:36.8041013Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-23T18:34:36.8046250Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-25T12:52:22.2643503Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-25T12:52:22.2687194Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-25T12:52:22.2740472Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-25T12:52:22.2744770Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-25T12:53:36.5995874Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-25T12:53:36.6076126Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-25T12:53:36.6182390Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-25T12:53:36.6190221Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-25T13:48:11.6222103Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-25T13:48:11.6284459Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-25T13:48:11.6339714Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-25T13:48:11.6343896Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-25T14:52:46.6397686Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-25T14:52:46.6440020Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-25T14:52:46.6491871Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-25T14:52:46.6496029Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-25T14:59:55.1804474Z] [INFO] Rhythm advanced to: Identification
+[2026-03-25T14:59:55.1812499Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-25T14:59:55.1841256Z] [INFO] Trigger fired: TRG_PHASE_IDENTIFICATION for phase Identification
+[2026-03-25T14:59:55.1865630Z] [INFO] InteractionHandler: capsule_exit (Trigger) → dialogue=, items=0
+[2026-03-25T14:59:55.1877037Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-25T14:59:55.1886247Z] [INFO] PrologueTracker: visited capsule_exit (1 total)
+[2026-03-25T15:00:06.6430873Z] [INFO] Rhythm advanced to: Provisioning
+[2026-03-25T15:00:06.6434142Z] [INFO] Interaction: bio_scanner → Идентификация подтверждена: Алан Арквейн. Получите снаряжение.
+[2026-03-25T15:00:06.6441232Z] [INFO] Trigger fired: TRG_PHASE_PROVISIONING for phase Provisioning
+[2026-03-25T15:00:06.6446674Z] [INFO] InteractionHandler: bio_scanner (Terminal) → dialogue=DIA_BIO_CONFIRM, items=0
+[2026-03-25T15:00:06.6449445Z] [INFO] Interaction: bio_scanner → Идентификация подтверждена: Алан Арквейн. Получите снаряжение.
+[2026-03-25T15:00:06.6451782Z] [INFO] PrologueTracker: visited bio_scanner (2 total)
+[2026-03-25T15:27:29.3255603Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-25T15:27:29.3349655Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-25T15:27:29.3478951Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-25T15:27:29.3486302Z] [INFO] ContentDrivenSceneFactory: build complete.
+[2026-03-25T15:30:22.5485361Z] [INFO] Rhythm advanced to: Identification
+[2026-03-25T15:30:22.5495818Z] [INFO] Interaction: capsule_exit → Оператор покинул капсулу. Пройдите биометрическую проверку.
+[2026-03-25T15:30:22.5509352Z] [INFO] PrologueTracker: visited capsule_exit (1 total)
+[2026-03-25T15:30:32.1683512Z] [INFO] Rhythm advanced to: Provisioning
+[2026-03-25T15:30:32.1689816Z] [INFO] Interaction: bio_scanner → Идентификация подтверждена: Алан Арквейн. Получите снаряжение.
+[2026-03-25T15:30:32.1752611Z] [INFO] Trigger fired: TRG_PHASE_PROVISIONING for phase Provisioning
+[2026-03-25T15:30:32.1785822Z] [INFO] InteractionHandler: bio_scanner (Terminal) → dialogue=DIA_BIO_CONFIRM, items=0
+[2026-03-25T15:30:32.1798330Z] [INFO] Interaction: bio_scanner → Идентификация подтверждена: Алан Арквейн. Получите снаряжение.
+[2026-03-25T15:30:32.1804550Z] [INFO] PrologueTracker: visited bio_scanner (2 total)
+[2026-03-25T16:50:27.0339371Z] [INFO] ContentDrivenSceneFactory: loaded 11 zones, 6 dialogues, 5 triggers, 7 objectives
+[2026-03-25T16:50:27.0471088Z] [INFO] Hub A-0 initialized. Phase: Awakening
+[2026-03-25T16:50:27.0591050Z] [INFO] GameplaySession started. Player at (-7,0,-6,0), camera mode=ThirdPerson3D
+[2026-03-25T16:50:27.0598774Z] [INFO] ContentDrivenSceneFactory: build complete.
