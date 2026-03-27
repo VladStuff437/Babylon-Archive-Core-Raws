@@ -8,7 +8,13 @@ public sealed class RoomArchetypeDefinition
 
     public int DifficultyWeight { get; init; } = 1;
 
+    public int MinDepth { get; init; } = 0;
+
+    public int MaxDepth { get; init; } = int.MaxValue;
+
     public IReadOnlyList<string> Tags { get; init; } = Array.Empty<string>();
+
+    public bool SupportsDepth(int depth) => depth >= MinDepth && depth <= MaxDepth;
 }
 
 public sealed class LevelRoom
@@ -25,6 +31,8 @@ public sealed class LevelLayout
     public required Core.Archive.ArchiveAddress Address { get; init; }
 
     public int Seed { get; init; }
+
+    public string Strategy { get; init; } = "weighted";
 
     public required IReadOnlyList<LevelRoom> Rooms { get; init; }
 }

@@ -41,9 +41,7 @@ public class Session046RuntimeTests
         var json = serializer.Serialize(migrated);
         var restored = serializer.Deserialize(json);
 
-
-
-
-
-
-}    }        Assert.Equal(6, restored.Path.Length);        Assert.Equal(46, restored.ContractVersion);
+        Assert.Equal(46, restored.ContractVersion);
+        Assert.Equal(6, restored.Path.Length);
+    }
+}

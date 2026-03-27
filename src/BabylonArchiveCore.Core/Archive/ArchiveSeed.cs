@@ -39,6 +39,19 @@ public static class ArchiveSeed
         return DeriveChildSeed(seed, "page", address.Page);
     }
 
+    public static int ComposeSeed(int baseSeed, params SeedScope[] scopes)
+    {
+        ArgumentNullException.ThrowIfNull(scopes);
+
+        var seed = Normalize((uint)baseSeed);
+        foreach (var scope in scopes)
+        {
+            seed = DeriveChildSeed(seed, scope.Scope, scope.Index);
+        }
+
+        return seed;
+    }
+
     private const uint FnvOffset = 2166136261;
     private const uint FnvPrime = 16777619;
 
@@ -72,3 +85,5 @@ public static class ArchiveSeed
         return value == 0 ? 1 : value;
     }
 }
+
+public readonly record struct SeedScope(string Scope, int Index);
