@@ -1,0 +1,8 @@
+{
+    "profileId": "session-012-save-aware",
+    "extends": "session-011-default",
+    "bindings": {
+        "quickSave": "F5",
+        "quickLoad": "F9"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-014.schema.json",
+    "title": "Session014 Migration Contract",
+    "type": "object",
+    "required": [
+        "sourceVersion",
+        "targetVersion",
+        "migrationId",
+        "isBackwardCompatible"
+    ],
+    "properties": {
+        "sourceVersion": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "targetVersion": {
+            "type": "integer",
+            "minimum": 14
+        },
+        "migrationId": {
+            "type": "string",
+            "minLength": 1
+        },
+        "isBackwardCompatible": {
+            "type": "boolean"
+        },
+        "appliedSteps": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}

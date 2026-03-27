@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-019.schema.json",
+    "title": "Session019 Action Map Contract",
+    "type": "object",
+    "required": [
+        "profileId",
+        "defaultActionSet",
+        "bindings",
+        "isComposite"
+    ],
+    "properties": {
+        "profileId": {
+            "type": "string",
+            "minLength": 1
+        },
+        "defaultActionSet": {
+            "type": "string",
+            "minLength": 1
+        },
+        "bindings": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "isComposite": {
+            "type": "boolean"
+        },
+        "fallbackProfileId": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": false
+}

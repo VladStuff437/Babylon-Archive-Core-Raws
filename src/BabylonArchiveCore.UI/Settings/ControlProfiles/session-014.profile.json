@@ -1,0 +1,8 @@
+{
+    "profileId": "session-014-migration",
+    "extends": "session-013-versioned",
+    "bindings": {
+        "applyMigration": "M",
+        "rollbackPreview": "Shift+M"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-011.schema.json",
+    "title": "Session011 Data Contract",
+    "type": "object",
+    "required": [
+        "saveId",
+        "schemaVersion",
+        "worldSeed",
+        "currentMode",
+        "worldTick"
+    ],
+    "properties": {
+        "saveId": {
+            "type": "string",
+            "minLength": 1
+        },
+        "schemaVersion": {
+            "type": "integer",
+            "minimum": 11
+        },
+        "worldSeed": {
+            "type": "integer"
+        },
+        "currentMode": {
+            "type": "string",
+            "minLength": 1
+        },
+        "worldTick": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "activeMissionId": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "metadata": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "additionalProperties": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}

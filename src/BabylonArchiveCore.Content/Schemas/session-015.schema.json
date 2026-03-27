@@ -1,0 +1,46 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-015.schema.json",
+    "title": "Session015 Event Taxonomy Contract",
+    "type": "object",
+    "required": [
+        "eventName",
+        "domain",
+        "category",
+        "severity"
+    ],
+    "properties": {
+        "eventName": {
+            "type": "string",
+            "minLength": 1
+        },
+        "domain": {
+            "type": "string",
+            "minLength": 1
+        },
+        "category": {
+            "type": "string",
+            "minLength": 1
+        },
+        "severity": {
+            "type": "string",
+            "enum": [
+                "trace",
+                "info",
+                "warning",
+                "error",
+                "critical"
+            ]
+        },
+        "tags": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}

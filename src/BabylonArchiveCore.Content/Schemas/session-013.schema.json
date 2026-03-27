@@ -1,0 +1,44 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-013.schema.json",
+    "title": "Session013 Schema Version Contract",
+    "type": "object",
+    "required": [
+        "currentVersion",
+        "minimumCompatibleVersion",
+        "channel",
+        "migrationPolicy"
+    ],
+    "properties": {
+        "currentVersion": {
+            "type": "integer",
+            "minimum": 13
+        },
+        "minimumCompatibleVersion": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "channel": {
+            "type": "string",
+            "enum": [
+                "stable",
+                "preview",
+                "experimental"
+            ]
+        },
+        "migrationPolicy": {
+            "type": "string",
+            "minLength": 1
+        },
+        "supportedLegacyVersions": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}

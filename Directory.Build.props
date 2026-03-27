@@ -1,0 +1,36 @@
+<Project>
+  <!--
+    Directory.Build.props — Babylon Archive Core
+    Глобальные настройки и правила зависимостей для всех проектов.
+    См. ADR-001 и INV-002.
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RootNamespace>BabylonArchiveCore</RootNamespace>
+  </PropertyGroup>
+
+  <!--
+    Правила зависимостей — Pillar P6: Layered Architecture Contract (INV-002, ADR-001, ADR-002):
+    Core  ← Runtime ← UI
+
+    Запрещённые ссылки:
+    - Core → Runtime (ЗАПРЕЩЕНО)
+    - Core → UI (ЗАПРЕЩЕНО)
+    - Runtime → UI (ЗАПРЕЩЕНО)
+
+    Content зависит только от Core (для типов схем).
+
+    Соответствие Pillar'ам (S002):
+    - P3 State Sovereignty: UI не мутирует WorldState → только через Runtime commands
+    - P6 Layered Architecture: однонаправленные зависимости enforced
+    - P7 Content as Data: Content не содержит логики, только данные + Core-типы
+
+    Эти правила проверяются при сборке.
+    При нарушении — ошибка компиляции.
+  -->
+
+</Project>

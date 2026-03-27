@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- BabylonArchiveCore.Core — Domain layer. No external dependencies. -->
+</Project>

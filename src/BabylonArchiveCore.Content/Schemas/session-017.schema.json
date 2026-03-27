@@ -1,0 +1,39 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-017.schema.json",
+    "title": "Session017 Runtime State Contract",
+    "type": "object",
+    "required": [
+        "stateId",
+        "currentMode",
+        "lastAppliedTick",
+        "isDirty"
+    ],
+    "properties": {
+        "stateId": {
+            "type": "string",
+            "minLength": 1
+        },
+        "currentMode": {
+            "type": "string",
+            "minLength": 1
+        },
+        "lastAppliedTick": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "isDirty": {
+            "type": "boolean"
+        },
+        "runtimeScopes": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}

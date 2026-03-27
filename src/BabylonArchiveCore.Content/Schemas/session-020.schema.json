@@ -1,0 +1,39 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-020.schema.json",
+    "title": "Session020 Control Profiles Contract",
+    "type": "object",
+    "required": [
+        "activeProfileId",
+        "fallbackProfileId",
+        "profileChain",
+        "strictResolution"
+    ],
+    "properties": {
+        "activeProfileId": {
+            "type": "string",
+            "minLength": 1
+        },
+        "fallbackProfileId": {
+            "type": "string",
+            "minLength": 1
+        },
+        "profileChain": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string"
+            }
+        },
+        "strictResolution": {
+            "type": "boolean"
+        },
+        "deviceTag": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": false
+}

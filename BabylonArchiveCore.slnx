@@ -1,9 +1,0 @@
-<Solution>
-  <Project Path="BabylonArchiveCore.Content/BabylonArchiveCore.Content.csproj" />
-  <Project Path="BabylonArchiveCore.Core/BabylonArchiveCore.Core.csproj" />
-  <Project Path="BabylonArchiveCore.Domain/BabylonArchiveCore.Domain.csproj" />
-  <Project Path="BabylonArchiveCore.Infrastructure/BabylonArchiveCore.Infrastructure.csproj" />
-  <Project Path="BabylonArchiveCore.Presentation/BabylonArchiveCore.Presentation.csproj" />
-  <Project Path="BabylonArchiveCore.Runtime/BabylonArchiveCore.Runtime.csproj" />
-  <Project Path="BabylonArchiveCore.Tests/BabylonArchiveCore.Tests.csproj" />
-</Solution>

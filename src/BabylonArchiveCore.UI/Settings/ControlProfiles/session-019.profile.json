@@ -1,0 +1,9 @@
+{
+    "profileId": "session-019-action-map",
+    "extends": "session-018-command",
+    "bindings": {
+        "openActionMap": "F8",
+        "quickActionSlot1": "1",
+        "quickActionSlot2": "2"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "activeProfile": "session-020-controls",
+    "fallbackProfile": "fallback",
+    "profiles": [
+        "fallback",
+        "session-011-default",
+        "session-012-save-aware",
+        "session-013-versioned",
+        "session-014-migration",
+        "session-015-events",
+        "session-016-gameloop",
+        "session-017-state",
+        "session-018-command",
+        "session-019-action-map",
+        "session-020-controls"
+    ]
+}

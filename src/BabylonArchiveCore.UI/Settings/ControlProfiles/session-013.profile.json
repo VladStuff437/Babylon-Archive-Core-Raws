@@ -1,0 +1,7 @@
+{
+    "profileId": "session-013-versioned",
+    "extends": "session-012-save-aware",
+    "bindings": {
+        "toggleSchemaInfo": "F10"
+    }
+}

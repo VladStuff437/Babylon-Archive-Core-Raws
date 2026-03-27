@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- BabylonArchiveCore.Tests — Test project, references all layers. -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BabylonArchiveCore.Core\BabylonArchiveCore.Core.csproj" />
+    <ProjectReference Include="..\..\src\BabylonArchiveCore.Runtime\BabylonArchiveCore.Runtime.csproj" />
+    <ProjectReference Include="..\..\src\BabylonArchiveCore.UI\BabylonArchiveCore.UI.csproj" />
+    <ProjectReference Include="..\..\src\BabylonArchiveCore.Content\BabylonArchiveCore.Content.csproj" />
+  </ItemGroup>
+</Project>
