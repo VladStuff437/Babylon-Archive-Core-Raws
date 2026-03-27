@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Session021CameraSchema",
+    "type": "object",
+    "properties": {
+        "mode": {
+            "type": "string",
+            "enum": [
+                "Follow",
+                "Aim",
+                "Inspect"
+            ],
+            "default": "Follow"
+        },
+        "positionX": {
+            "type": "number"
+        },
+        "positionY": {
+            "type": "number"
+        },
+        "positionZ": {
+            "type": "number"
+        },
+        "targetX": {
+            "type": "number"
+        },
+        "targetY": {
+            "type": "number"
+        },
+        "targetZ": {
+            "type": "number"
+        },
+        "fov": {
+            "type": "number",
+            "default": 60
+        },
+        "distance": {
+            "type": "number",
+            "default": 5
+        },
+        "extra": {
+            "type": "object",
+            "additionalProperties": true
+        }
+    },
+    "required": [
+        "mode",
+        "positionX",
+        "positionY",
+        "positionZ",
+        "targetX",
+        "targetY",
+        "targetZ",
+        "fov",
+        "distance"
+    ]
+}

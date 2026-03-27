@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session026CombatCoreSchema",
+  "type": "object",
+  "properties": {
+    "attackerId": {
+      "type": "string"
+    },
+    "targetId": {
+      "type": "string"
+    },
+    "directBaseDamage": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "aoeBaseDamage": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "targetArmor": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "isCritical": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "attackerId",
+    "targetId",
+    "directBaseDamage",
+    "aoeBaseDamage",
+    "targetArmor",
+    "isCritical"
+  ]
+}

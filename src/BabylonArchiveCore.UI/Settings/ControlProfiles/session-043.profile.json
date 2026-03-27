@@ -1,0 +1,9 @@
+{
+  "profileId": "session-043-cycle-safety-controls",
+  "description": "Debug controls for cycle safety and fallback routing.",
+  "bindings": {
+    "ValidateCycles": { "input": "Ctrl+F7", "action": "ValidateCycles" },
+    "ToggleCycleGuard": { "input": "Ctrl+F8", "action": "ToggleCycleGuard" },
+    "ForceCycleFallback": { "input": "Ctrl+F9", "action": "ForceCycleFallback" }
+  }
+}

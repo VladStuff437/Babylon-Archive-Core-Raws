@@ -1,0 +1,9 @@
+{
+  "profileId": "session-040-mission-runtime-controls",
+  "description": "Runtime controls for mission progression and graph navigation diagnostics.",
+  "bindings": {
+    "AdvanceMissionStep": { "input": "F10", "action": "AdvanceMissionStep" },
+    "RestartMissionRuntime": { "input": "F11", "action": "RestartMissionRuntime" },
+    "DumpMissionRuntimeState": { "input": "F12", "action": "DumpMissionRuntimeState" }
+  }
+}

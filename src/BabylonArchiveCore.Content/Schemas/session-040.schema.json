@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session040MissionRuntimeContractSchema",
+  "type": "object",
+  "properties": {
+    "contractVersion": { "type": "integer", "minimum": 40 },
+    "missionId": { "type": "string" },
+    "currentNodeId": { "type": "string" },
+    "isCompleted": { "type": "boolean" },
+    "stepCount": { "type": "integer", "minimum": 0 },
+    "maxStepCount": { "type": "integer", "minimum": 1 }
+  },
+  "required": [
+    "contractVersion",
+    "missionId",
+    "currentNodeId",
+    "isCompleted",
+    "stepCount",
+    "maxStepCount"
+  ]
+}

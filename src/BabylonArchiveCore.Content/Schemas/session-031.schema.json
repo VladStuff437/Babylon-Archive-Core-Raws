@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session031DamageFormulaSchema",
+  "type": "object",
+  "properties": {
+    "formulaId": {
+      "type": "string"
+    },
+    "attackPower": {
+      "type": "number",
+      "minimum": 0
+    },
+    "skillMultiplier": {
+      "type": "number",
+      "minimum": 0
+    },
+    "critChance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "critMultiplier": {
+      "type": "number",
+      "minimum": 1
+    },
+    "armorPenetration": {
+      "type": "number",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "formulaId",
+    "attackPower",
+    "skillMultiplier",
+    "critChance",
+    "critMultiplier",
+    "armorPenetration"
+  ]
+}

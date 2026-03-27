@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session025StatusSystemSchema",
+  "type": "object",
+  "properties": {
+    "ownerId": {
+      "type": "string"
+    },
+    "statuses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "effectId": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "remainingTicks": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "stackCount": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "effectId",
+          "category",
+          "remainingTicks",
+          "stackCount"
+        ]
+      }
+    }
+  },
+  "required": [
+    "ownerId",
+    "statuses"
+  ]
+}

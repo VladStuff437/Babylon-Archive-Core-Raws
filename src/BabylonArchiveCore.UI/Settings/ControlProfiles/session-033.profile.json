@@ -1,0 +1,9 @@
+{
+  "profileId": "session-033-loot-controls",
+  "description": "Debug controls for rarity weights and loot roll simulation.",
+  "bindings": {
+    "RollLoot": { "input": "F10", "action": "RollLoot" },
+    "IncreaseLuckBias": { "input": "PageUp", "action": "IncreaseLuckBias" },
+    "DecreaseLuckBias": { "input": "PageDown", "action": "DecreaseLuckBias" }
+  }
+}

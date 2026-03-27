@@ -1,0 +1,17 @@
+{
+  "profileId": "session-031-formulas",
+  "damage": {
+    "baseAttackPower": 12,
+    "skillMultiplier": 1.15,
+    "critChance": 0.1,
+    "critMultiplier": 1.7,
+    "minDamage": 1
+  },
+  "lootRarityWeights": {
+    "common": 60,
+    "uncommon": 25,
+    "rare": 10,
+    "epic": 4,
+    "legendary": 1
+  }
+}

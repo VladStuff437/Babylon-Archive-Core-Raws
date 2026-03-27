@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session033LootSchema",
+  "type": "object",
+  "properties": {
+    "balanceProfileId": { "type": "string" },
+    "rarityWeights": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "luckBias": { "type": "number", "minimum": 0, "maximum": 1 }
+  },
+  "required": ["balanceProfileId", "rarityWeights", "luckBias"]
+}

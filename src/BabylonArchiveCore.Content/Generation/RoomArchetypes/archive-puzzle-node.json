@@ -1,0 +1,6 @@
+{
+  "archetypeId": "archive-puzzle-node",
+  "biomeTag": "archive-core",
+  "difficultyWeight": 2,
+  "tags": ["puzzle", "switch"]
+}

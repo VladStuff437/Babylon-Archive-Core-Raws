@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session041ReachabilityContractSchema",
+  "type": "object",
+  "properties": {
+    "contractVersion": { "type": "integer", "minimum": 41 },
+    "missionId": { "type": "string" },
+    "startNodeId": { "type": "string" },
+    "nodeIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["contractVersion", "missionId", "startNodeId", "nodeIds"]
+}

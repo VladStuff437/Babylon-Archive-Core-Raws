@@ -1,0 +1,9 @@
+{
+  "profileId": "session-037-mission-definition-controls",
+  "description": "Debug controls for mission definition contract and node validation.",
+  "bindings": {
+    "ValidateMission": { "input": "F1", "action": "ValidateMission" },
+    "ToggleStrictMissionValidation": { "input": "F2", "action": "ToggleStrictMissionValidation" },
+    "DumpMissionContract": { "input": "F3", "action": "DumpMissionContract" }
+  }
+}

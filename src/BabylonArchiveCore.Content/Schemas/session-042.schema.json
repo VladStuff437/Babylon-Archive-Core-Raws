@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session042DeadEndContractSchema",
+  "type": "object",
+  "properties": {
+    "contractVersion": { "type": "integer", "minimum": 42 },
+    "missionId": { "type": "string" },
+    "deadEndNodeIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "allowsFallback": { "type": "boolean" }
+  },
+  "required": ["contractVersion", "missionId", "deadEndNodeIds", "allowsFallback"]
+}

@@ -1,0 +1,13 @@
+{
+  "profileId": "session-035",
+  "worldAxes": {
+    "moralAxis": 0,
+    "technoArcaneAxis": 0
+  },
+  "factionReputations": {
+    "guild": 0,
+    "order": 0,
+    "freeholders": 0
+  },
+  "reputationDamageScale": 0.2
+}

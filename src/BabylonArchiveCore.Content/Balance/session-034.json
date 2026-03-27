@@ -1,0 +1,13 @@
+{
+  "profileId": "session-034",
+  "economy": {
+    "inflationIndex": 1.0,
+    "buyPriceMultiplier": 1.05,
+    "sellPriceMultiplier": 0.92
+  },
+  "factionModifiers": {
+    "guild": 0.95,
+    "order": 1.08,
+    "freeholders": 1.0
+  }
+}

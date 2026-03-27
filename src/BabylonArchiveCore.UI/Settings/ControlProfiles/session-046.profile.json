@@ -1,0 +1,9 @@
+{
+  "profileId": "session-046-archive-address-controls",
+  "description": "Debug controls for ArchiveAddress model and hierarchical seeds.",
+  "bindings": {
+    "ParseArchiveAddress": { "input": "Ctrl+Shift+F7", "action": "ParseArchiveAddress" },
+    "NavigateArchiveParent": { "input": "Ctrl+Shift+F8", "action": "NavigateArchiveParent" },
+    "DeriveAddressSeed": { "input": "Ctrl+Shift+F9", "action": "DeriveAddressSeed" }
+  }
+}

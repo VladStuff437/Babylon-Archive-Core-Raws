@@ -1,0 +1,9 @@
+{
+  "profileId": "session-044-fallback-controls",
+  "description": "Debug controls for deterministic fallback mission routing.",
+  "bindings": {
+    "ForceFallback": { "input": "Ctrl+Shift+F1", "action": "ForceFallbackMission" },
+    "DumpFallbackReasons": { "input": "Ctrl+Shift+F2", "action": "DumpFallbackReasons" },
+    "ToggleFallbackDeterminism": { "input": "Ctrl+Shift+F3", "action": "ToggleFallbackDeterminism" }
+  }
+}

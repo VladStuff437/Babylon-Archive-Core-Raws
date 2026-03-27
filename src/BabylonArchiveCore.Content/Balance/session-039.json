@@ -1,0 +1,22 @@
+{
+  "profileId": "session-039",
+  "mission": {
+    "priorityWeight": 1.0,
+    "satisfiedBonus": 900,
+    "fallbackPenalty": 300
+  },
+  "damageMultipliers": {
+    "player": 1.04,
+    "enemy": 0.96
+  },
+  "loot": {
+    "luckBias": 0.18
+  },
+  "lootRarityWeights": {
+    "common": 55,
+    "uncommon": 26,
+    "rare": 12,
+    "epic": 5,
+    "legendary": 2
+  }
+}

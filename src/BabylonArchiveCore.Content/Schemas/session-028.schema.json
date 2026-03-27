@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session028AutoAttackSchema",
+  "type": "object",
+  "properties": {
+    "actorId": {
+      "type": "string"
+    },
+    "targetId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "attackIntervalTicks": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "isMissionTransitionLocked": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "actorId",
+    "isActive",
+    "attackIntervalTicks",
+    "isMissionTransitionLocked"
+  ]
+}

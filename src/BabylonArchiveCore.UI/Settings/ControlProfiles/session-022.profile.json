@@ -1,0 +1,26 @@
+{
+    "profileId": "session-022-interaction-controls",
+    "description": "Control profile for interactions, inventory, combat input.",
+    "bindings": {
+        "Interact": {
+            "input": "E",
+            "action": "Interact"
+        },
+        "Inventory": {
+            "input": "I",
+            "action": "ToggleInventory"
+        },
+        "TabTarget": {
+            "input": "Tab",
+            "action": "NextTarget"
+        },
+        "CancelTarget": {
+            "input": "Escape",
+            "action": "CancelTarget"
+        },
+        "AutoAttack": {
+            "input": "A",
+            "action": "ToggleAutoAttack"
+        }
+    }
+}

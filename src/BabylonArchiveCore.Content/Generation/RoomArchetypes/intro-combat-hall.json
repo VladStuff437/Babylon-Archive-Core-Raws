@@ -1,0 +1,6 @@
+{
+  "archetypeId": "intro-combat-hall",
+  "biomeTag": "archive-hall",
+  "difficultyWeight": 3,
+  "tags": ["combat", "entry"]
+}

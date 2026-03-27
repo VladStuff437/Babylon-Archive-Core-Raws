@@ -1,0 +1,6 @@
+{
+  "archetypeId": "recovery-sanctum",
+  "biomeTag": "safe-chamber",
+  "difficultyWeight": 1,
+  "tags": ["safe", "fallback"]
+}

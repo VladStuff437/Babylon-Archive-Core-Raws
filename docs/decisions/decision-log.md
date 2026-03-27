@@ -331,3 +331,256 @@
 | # | Решение | Причина | Планируемая сессия |
 |---|---------|---------|-------------------|
 | P-015 | Device-aware auto-selection профиля | Требуется runtime camera/input контур блока 03 | 021 |
+
+---
+
+## Сессия 024 — Атрибуты персонажа
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-095 | Расширить PlayerState атрибутами Strength/Agility/Intellect/Vitality | Базовый контур прогрессии персонажа | ADR-024 |
+| D-096 | Ввести диапазонную валидацию атрибутов [1..100] | Предсказуемость и защита от некорректных значений | ADR-024 |
+| D-097 | Добавить Session024 contract/schema/migration/serializer | Сквозная трассируемость и совместимость данных | ADR-024 |
+
+---
+
+## Сессия 025 — Система статусов
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-098 | Расширить StatusEffect полями category/stack/max-stack | Поддержка buff/debuff и stacking-механик | ADR-025 |
+| D-099 | Добавить merge/remove API в StatusEffectManager | Явное управление жизненным циклом статусов | ADR-025 |
+| D-100 | Добавить Session025 contract/schema/migration/serializer | Формализация статусного контура | ADR-025 |
+
+---
+
+## Сессия 026 — Ядро боевой системы
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-101 | Ввести CombatTurnContext в CombatSystem | Расширяемость боевого цикла без breaking changes | ADR-026 |
+| D-102 | Добавить armor mitigation и critical multiplier | Минимально реалистичный core-расчёт боя | ADR-026 |
+| D-103 | Сохранить legacy ResolveTurn(int,int) API | Обратная совместимость с предыдущими сессиями | ADR-026 |
+
+---
+
+## Сессия 027 — Tab и Esc в бою
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-104 | Добавить mission transition lock в CombatInputHandler | Исключение конфликтов таргетинга во время переходов | ADR-027 |
+| D-105 | Зафиксировать поведение TabTarget/EscCancel под lock | Детерминированный input-поток для боевого контура | ADR-027 |
+| D-106 | Добавить Session027 contract/schema/migration/serializer | Трассируемая эволюция контура боевого ввода | ADR-027 |
+
+---
+
+## Сессия 028 — Автоатака
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-107 | Перевести AutoAttackController на tick-модель | Управляемая и тестируемая частота ударов | ADR-028 |
+| D-108 | Добавить mission transition suppression для автоатаки | Безопасность игрового цикла в фазах перехода | ADR-028 |
+| D-109 | Добавить Session028 contract/schema/migration/serializer | Формализация состояния автоатаки | ADR-028 |
+
+---
+
+## Сессия 029 — Восприятие ИИ врагов
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-110 | Ввести awareness-aware детекцию целей в PerceptionSystem | Более реалистичная и настраиваемая перцепция | ADR-029 |
+| D-111 | Добавить UpdateFromPerception в AIStateMachine | Явная связка перцепции и поведенческих переходов | ADR-029 |
+| D-112 | Добавить Session029 contract/schema/migration/serializer | Сквозная трассируемость AI perception состояния | ADR-029 |
+
+---
+
+## Сессия 030 — State machine врагов
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-113 | Расширить AIState состояниями Alert/Investigate/ReturnToPost | Детализированный и предсказуемый поведенческий цикл врага | ADR-030 |
+| D-114 | Добавить UpdateEnemyState(EnemyStateInput) в AIStateMachine | Формализация переходов по LOS/aggression/leash/health | ADR-030 |
+| D-115 | Добавить Session030 contract/schema/migration/serializer | Трассируемая эволюция enemy AI state | ADR-030 |
+
+---
+
+## Сессия 031 — Формулы урона
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-116 | Ввести DamageCalculator с clamping граничных случаев | Стабильная и безопасная математическая модель урона | ADR-031 |
+| D-117 | Добавить BalanceTableLoader и DropResolver | Перевод урона/лута в data-driven контур | ADR-031 |
+| D-118 | Ввести MissionDefinition/MissionNode/TransitionEvaluator | Формализация миссионного runtime-контракта | ADR-031 |
+
+---
+
+## Сессия 032 — Базовый баланс v1
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-119 | Зафиксировать session-032.json как baseline profile | Единый baseline-множитель для боевой/экономической модели | ADR-032 |
+| D-120 | Ввести WorldState с faction reputation и осями Moral/TechnoArcane | Явная state-модель эффектов миссий и баланса | ADR-032 |
+| D-121 | Добавить Session032 contract/schema/migration/serializer | Сквозная трассируемость balance v1 | ADR-032 |
+
+---
+
+## Сессия 033 — Лут-система
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-122 | Добавить Session033 contract/schema/migration/serializer | Трассируемая эволюция лут-контура | ADR-033 |
+| D-123 | Расширить DropResolver методами ResolveDropTier/ResolveDrop | Детализированный deterministic loot flow с luck bias | ADR-033 |
+| D-124 | Зафиксировать session-033.json с rarity weights | Data-driven баланс редкостей без изменений кода | ADR-033 |
+
+---
+
+## Сессия 034 — Экономика v1
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-125 | Добавить Session034 contract/schema/migration/serializer | Формализация экономического профиля сессии | ADR-034 |
+| D-126 | Расширить EconomyState инфляцией и faction modifiers | Управляемое ценообразование и ограничение диапазонов | ADR-034 |
+| D-127 | Ввести ApplyFactionTransaction в WorldEconomySynchronizer | Явная связка world reputation и торговых транзакций | ADR-034 |
+
+---
+
+## Сессия 035 — Репутации фракций
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-128 | Добавить Session035 contract/schema/migration/serializer | Сквозная модель репутаций и осей мира | ADR-035 |
+| D-129 | Расширить WorldState/WorldStateService API для осей и delta-репутаций | Единая точка изменения world-alignment состояния | ADR-035 |
+| D-130 | Добавить CalculateDamageWithContext в DamageCalculator | Контролируемое влияние осей и репутации на боевые расчёты | ADR-035 |
+
+---
+
+## Сессия 036 — World Axis Consolidation
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-131 | Добавить Session036 contract/schema/migration/serializer | Формализация версии и структуры world-axis контракта | ADR-036 |
+| D-132 | Расширить WorldState/WorldStateService snapshot/delta API для осей | Детерминированные и атомарные обновления осей мира в рантайме | ADR-036 |
+| D-133 | Добавить Session036 runtime/mission/smoke tests | Подтверждение интеграции world-axis изменений с миссионным контуром | ADR-036 |
+
+---
+
+## Сессия 037 — MissionDefinition Contract Finalization
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-134 | Добавить Session037 contract/schema/migration/serializer | Формализация финальной версии MissionDefinition контракта | ADR-037 |
+| D-135 | Усилить MissionDefinition.Validate правилами contractVersion/start-node | Предотвращение некорректных миссий до этапа исполнения | ADR-037 |
+| D-136 | Добавить Session037 runtime/mission/smoke tests | Проверка совместимости контрактов и runtime-переходов | ADR-037 |
+
+---
+
+## Сессия 038 — MissionNode Contract Finalization
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-137 | Добавить Session038 contract/schema/migration/serializer | Формализация checkpoint/fallback полей узла миссии | ADR-038 |
+| D-138 | Добавить fallback-семантику в MissionNode и deterministic fallback в TransitionEvaluator | Предсказуемый выбор перехода при отсутствии удовлетворённых условий | ADR-038 |
+| D-139 | Добавить Session038 runtime/mission/smoke tests | Подтверждение стабильности fallback логики и миграции контракта | ADR-038 |
+
+---
+
+## Сессия 039 — Оценка переходов узлов
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-140 | Добавить Session039 contract/schema/migration/serializer | Формализация параметров scoring-модели переходов | ADR-039 |
+| D-141 | Расширить TransitionEvaluator методами balance/scoring evaluation | Детализированный и настраиваемый выбор переходов при сохранении детерминизма | ADR-039 |
+| D-142 | Добавить Session039 runtime/mission/smoke tests | Верификация tie-break, fallback и сериализации контракта | ADR-039 |
+
+---
+
+## Сессия 040 — Runtime миссии
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-143 | Добавить Session040 contract/schema/migration/serializer | Формализация runtime состояния миссии | ADR-040 |
+| D-144 | Ввести MissionRuntimeEngine и MissionRuntimeState | Явный и тестируемый контур запуска/продвижения миссий | ADR-040 |
+| D-145 | Добавить Session040 runtime/mission/smoke tests | Подтверждение deterministic progression и интеграции с баланс-профилем | ADR-040 |
+
+---
+
+## Сессия 041 — Reachability Validation
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-146 | Добавить Session041 contract/schema/migration/serializer | Формализация reachability-правил миссионного графа | ADR-041 |
+| D-147 | Ввести ReachabilityValidator и pipeline MissionValidationRunner | Блокировка миссий с unreachable-узлами до runtime старта | ADR-041 |
+| D-148 | Добавить MissionFactory fallback путь и Session041 tests | Гарантированный recovery-контур для невалидного контента | ADR-041 |
+
+---
+
+## Сессия 042 — Dead-End Safety
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-149 | Добавить Session042 contract/schema/migration/serializer | Формализация dead-end safety требований | ADR-042 |
+| D-150 | Ввести DeadEndValidator для non-terminal узлов | Исключение тупиков без завершения/выхода в миссионном графе | ADR-042 |
+| D-151 | Добавить MissionRuntimeSnapshot/Persistence и Session042 tests | Стабильное сохранение и восстановление mission runtime состояния | ADR-042 |
+
+---
+
+## Сессия 043 — Cycle Safety and Seeded Generation
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-152 | Добавить Session043 contract/schema/migration/serializer | Формализация cycle safety ограничений | ADR-043 |
+| D-153 | Ввести CycleSafetyValidator с детекцией unsafe cycle | Предотвращение бесконечных замкнутых циклов без выхода | ADR-043 |
+| D-154 | Добавить ArchiveAddress/ArchiveSeed/LevelGenerator и seed golden tests | Детерминированная генерация уровня по адресам Архива | ADR-043 |
+
+---
+
+## Сессия 044 — Fallback миссий
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-155 | Добавить Session044 contract/schema/migration/serializer | Формализация fallback-маршрута и reason-кодов | ADR-044 |
+| D-156 | Нормализовать reason-коды в FallbackMissionProvider в детерминированном порядке | Идентичные наборы ошибок должны давать одинаковый fallback-результат | ADR-044 |
+| D-157 | Добавить Session044 runtime/mission/generation tests | Подтверждение deterministic fallback поведения | ADR-044 |
+
+---
+
+## Сессия 045 — Save/load миссий
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-158 | Добавить Session045 contract/schema/migration/serializer | Формализация persistence metadata mission snapshot | ADR-045 |
+| D-159 | Ввести SnapshotVersion и StateChecksum в MissionRuntimeSnapshot | Контроль совместимости и целостности restore-потока | ADR-045 |
+| D-160 | Валидировать checksum при deserialize + добавить Session045 tests | Раннее выявление повреждённых snapshot-данных | ADR-045 |
+
+---
+
+## Сессия 046 — Модель ArchiveAddress
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-161 | Добавить Session046 contract/schema/migration/serializer | Формализация модели адресов Архива и seed-связки | ADR-046 |
+| D-162 | Расширить ArchiveAddress навигацией (path/root/parent/next-page) | Явная и тестируемая модель адресной иерархии | ADR-046 |
+| D-163 | Добавить ArchiveSeed.DeriveHierarchySeed и Session046 golden tests | Детерминированный replay generation по иерархии адреса | ADR-046 |

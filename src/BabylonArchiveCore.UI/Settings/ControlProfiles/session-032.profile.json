@@ -1,0 +1,18 @@
+{
+  "profileId": "session-032-balance-v1-controls",
+  "description": "Debug controls for baseline balance multipliers and mission transition checks.",
+  "bindings": {
+    "IncreasePlayerDamageMultiplier": {
+      "input": "F7",
+      "action": "IncreasePlayerDamageMultiplier"
+    },
+    "DecreaseEnemyDamageMultiplier": {
+      "input": "F8",
+      "action": "DecreaseEnemyDamageMultiplier"
+    },
+    "ToggleMissionBranchDebug": {
+      "input": "F9",
+      "action": "ToggleMissionBranchDebug"
+    }
+  }
+}

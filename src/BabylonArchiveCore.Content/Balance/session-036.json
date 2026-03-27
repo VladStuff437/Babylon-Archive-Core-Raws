@@ -1,0 +1,19 @@
+{
+  "profileId": "session-036",
+  "worldAxes": {
+    "moralAxis": 0,
+    "technoArcaneAxis": 0
+  },
+  "damageMultipliers": {
+    "player": 1.02,
+    "enemy": 0.98
+  },
+  "economy": {
+    "inflationIndex": 1.01,
+    "buyPriceMultiplier": 1.02,
+    "sellPriceMultiplier": 0.9
+  },
+  "loot": {
+    "luckBias": 0.12
+  }
+}

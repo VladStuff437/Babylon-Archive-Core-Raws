@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session038MissionNodeContractSchema",
+  "type": "object",
+  "properties": {
+    "nodeId": { "type": "string" },
+    "isTerminal": { "type": "boolean" },
+    "isCheckpoint": { "type": "boolean" },
+    "transitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "targetNodeId": { "type": "string" },
+          "priority": { "type": "integer" },
+          "conditionKey": { "type": ["string", "null"] },
+          "isFallback": { "type": "boolean" }
+        },
+        "required": ["targetNodeId", "priority", "isFallback"]
+      }
+    }
+  },
+  "required": ["nodeId", "isTerminal", "isCheckpoint", "transitions"]
+}

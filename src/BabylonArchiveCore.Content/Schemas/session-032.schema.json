@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session032BalanceSchema",
+  "type": "object",
+  "properties": {
+    "balanceProfileId": {
+      "type": "string"
+    },
+    "playerDamageMultiplier": {
+      "type": "number",
+      "minimum": 0
+    },
+    "enemyDamageMultiplier": {
+      "type": "number",
+      "minimum": 0
+    },
+    "lootQualityBias": {
+      "type": "number"
+    },
+    "economyPriceMultiplier": {
+      "type": "number",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "balanceProfileId",
+    "playerDamageMultiplier",
+    "enemyDamageMultiplier",
+    "lootQualityBias",
+    "economyPriceMultiplier"
+  ]
+}

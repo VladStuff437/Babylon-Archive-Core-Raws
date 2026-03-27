@@ -1,0 +1,12 @@
+{
+  "profileId": "session-041",
+  "mission": {
+    "requireReachability": 1,
+    "maxUnreachableNodes": 0,
+    "fallbackPenalty": 500
+  },
+  "damageMultipliers": {
+    "player": 1.0,
+    "enemy": 1.0
+  }
+}

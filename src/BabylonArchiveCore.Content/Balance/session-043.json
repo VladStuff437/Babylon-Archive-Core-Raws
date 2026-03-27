@@ -1,0 +1,11 @@
+{
+  "profileId": "session-043",
+  "mission": {
+    "maxCycleLength": 8,
+    "requireCycleExit": 1,
+    "fallbackPenalty": 650
+  },
+  "economy": {
+    "inflationIndex": 1.0
+  }
+}

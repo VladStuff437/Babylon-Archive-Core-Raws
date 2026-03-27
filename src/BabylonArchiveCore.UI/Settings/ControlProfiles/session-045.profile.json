@@ -1,0 +1,9 @@
+{
+  "profileId": "session-045-mission-persistence-controls",
+  "description": "Debug controls for mission save/load snapshots and checksum validation.",
+  "bindings": {
+    "SaveMissionSnapshot": { "input": "Ctrl+Shift+F4", "action": "SaveMissionSnapshot" },
+    "LoadMissionSnapshot": { "input": "Ctrl+Shift+F5", "action": "LoadMissionSnapshot" },
+    "ValidateSnapshotChecksum": { "input": "Ctrl+Shift+F6", "action": "ValidateSnapshotChecksum" }
+  }
+}

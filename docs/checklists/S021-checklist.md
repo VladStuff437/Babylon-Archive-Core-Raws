@@ -1,0 +1,1 @@
+- [x] S021: Camera contract, schema, runtime, migration, serializer, control profile, tests, docs
