@@ -40,6 +40,48 @@ public sealed class LevelGenerator
         {
             Address = address,
             Seed = seed,
+            Strategy = "weighted",
+            Rooms = rooms
+        };
+    }
+
+    public LevelLayout GenerateCore(ArchiveAddress address, IReadOnlyList<RoomArchetypeDefinition> archetypes, int roomCount, int worldSeed)
+    {
+        ArgumentNullException.ThrowIfNull(archetypes);
+
+        if (roomCount < 1)
+        {
+            throw new ArgumentOutOfRangeException(nameof(roomCount), "roomCount must be greater than zero.");
+        }
+
+        if (archetypes.Count == 0)
+        {
+            throw new InvalidOperationException("At least one room archetype is required.");
+        }
+
+        var seed = ArchiveSeed.DeriveHierarchySeed(address, worldSeed);
+        var rooms = new List<LevelRoom>(roomCount);
+
+        for (var depth = 0; depth < roomCount; depth++)
+        {
+            var pool = RoomArchetypeCatalog.SelectForDepth(archetypes, depth);
+            var localSeed = ArchiveSeed.ComposeSeed(seed, new SeedScope("depth", depth));
+            var random = new Random(localSeed);
+            var archetype = PickArchetype(pool, random);
+
+            rooms.Add(new LevelRoom
+            {
+                Index = depth,
+                ArchetypeId = archetype.ArchetypeId,
+                LocalSeed = localSeed
+            });
+        }
+
+        return new LevelLayout
+        {
+            Address = address,
+            Seed = seed,
+            Strategy = "generator-core",
             Rooms = rooms
         };
     }

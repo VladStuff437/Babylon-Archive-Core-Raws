@@ -41,4 +41,7 @@ public static class SessionEvents
     public const string Session044FallbackMissionsReady = "session.044.fallback.missions.ready";
     public const string Session045MissionSaveLoadReady = "session.045.mission.save.load.ready";
     public const string Session046ArchiveAddressModelReady = "session.046.archive.address.model.ready";
+    public const string Session047SeedCompositionReady = "session.047.seed.composition.ready";
+    public const string Session048GeneratorCoreReady = "session.048.generator.core.ready";
+    public const string Session049RoomArchetypesReady = "session.049.room.archetypes.ready";
 }
