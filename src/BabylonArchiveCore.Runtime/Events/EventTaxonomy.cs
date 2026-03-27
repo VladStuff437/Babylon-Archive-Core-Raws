@@ -16,4 +16,7 @@ public static class EventTaxonomy
     public const string CommandCategory = "command";
     public const string ActionMapCategory = "action-map";
     public const string ControlProfileCategory = "control-profile";
+    public const string SeedCompositionCategory = "seed-composition";
+    public const string GeneratorCoreCategory = "generator-core";
+    public const string RoomArchetypeCategory = "room-archetype";
 }
