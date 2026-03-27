@@ -1,0 +1,8 @@
+{
+    "profileId": "session-015-events",
+    "extends": "session-014-migration",
+    "bindings": {
+        "openEventConsole": "F11",
+        "toggleEventFilter": "F12"
+    }
+}

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- BabylonArchiveCore.UI — HUD, screens, input. Depends on Runtime and Core. -->
+  <ItemGroup>
+    <ProjectReference Include="..\BabylonArchiveCore.Runtime\BabylonArchiveCore.Runtime.csproj" />
+  </ItemGroup>
+</Project>

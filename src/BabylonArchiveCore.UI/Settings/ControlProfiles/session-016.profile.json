@@ -1,0 +1,8 @@
+{
+    "profileId": "session-016-gameloop",
+    "extends": "session-015-events",
+    "bindings": {
+        "pauseLoop": "P",
+        "singleStep": "O"
+    }
+}

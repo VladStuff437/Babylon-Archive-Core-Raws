@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-012.schema.json",
+    "title": "Session012 Save Contract",
+    "type": "object",
+    "required": [
+        "saveId",
+        "schemaVersion",
+        "lastUpdatedUtc",
+        "playerState",
+        "worldStateSnapshot"
+    ],
+    "properties": {
+        "saveId": {
+            "type": "string",
+            "minLength": 1
+        },
+        "schemaVersion": {
+            "type": "integer",
+            "minimum": 12
+        },
+        "lastUpdatedUtc": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "playerState": {
+            "type": "string"
+        },
+        "worldStateSnapshot": {
+            "type": "string"
+        },
+        "unlockedArchiveAddresses": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}

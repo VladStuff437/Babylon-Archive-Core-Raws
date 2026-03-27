@@ -1,0 +1,8 @@
+{
+    "profileId": "session-011-default",
+    "extends": "fallback",
+    "bindings": {
+        "openArchive": "Tab",
+        "missionJournal": "J"
+    }
+}

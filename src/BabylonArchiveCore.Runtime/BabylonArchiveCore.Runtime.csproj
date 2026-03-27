@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- BabylonArchiveCore.Runtime — Game loop, generation, combat, AI. Depends on Core only. -->
+  <ItemGroup>
+    <ProjectReference Include="..\BabylonArchiveCore.Core\BabylonArchiveCore.Core.csproj" />
+  </ItemGroup>
+</Project>

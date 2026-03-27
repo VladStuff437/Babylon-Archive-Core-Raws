@@ -1,0 +1,13 @@
+{
+    "activeProfile": "session-016-gameloop",
+    "fallbackProfile": "fallback",
+    "profiles": [
+        "fallback",
+        "session-011-default",
+        "session-012-save-aware",
+        "session-013-versioned",
+        "session-014-migration",
+        "session-015-events",
+        "session-016-gameloop"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "profileId": "fallback",
+    "description": "Safe fallback controls profile",
+    "bindings": {
+        "moveForward": "W",
+        "moveBackward": "S",
+        "moveLeft": "A",
+        "moveRight": "D",
+        "confirm": "Enter",
+        "cancel": "Escape"
+    }
+}

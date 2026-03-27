@@ -1,0 +1,48 @@
+name: CI — Babylon Archive Core
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+    workflow_dispatch:
+
+env:
+    DOTNET_VERSION: "8.0.x"
+    CONFIGURATION: Release
+
+jobs:
+    build-and-test:
+        name: Build & Test
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup .NET
+              uses: actions/setup-dotnet@v4
+              with:
+                  dotnet-version: ${{ env.DOTNET_VERSION }}
+
+            - name: Restore dependencies
+              run: dotnet restore BabylonArchiveCore.sln
+
+            - name: Build
+              run: dotnet build BabylonArchiveCore.sln --configuration ${{ env.CONFIGURATION }} --no-restore
+
+            - name: Validate session schemas
+              shell: pwsh
+              run: |
+                  $schemas = Get-ChildItem src/BabylonArchiveCore.Content/Schemas/session-0*.schema.json -ErrorAction Stop
+                  if ($schemas.Count -eq 0) {
+                      throw "No session schema files found in src/BabylonArchiveCore.Content/Schemas."
+                  }
+
+                  foreach ($schema in $schemas) {
+                      Get-Content $schema.FullName -Raw | ConvertFrom-Json | Out-Null
+                      Write-Host "Validated JSON schema file: $($schema.Name)"
+                  }
+
+            - name: Test
+              run: dotnet test BabylonArchiveCore.sln --configuration ${{ env.CONFIGURATION }} --no-build --verbosity normal

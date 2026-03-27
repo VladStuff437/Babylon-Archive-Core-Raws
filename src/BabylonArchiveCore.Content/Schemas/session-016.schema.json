@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-016.schema.json",
+    "title": "Session016 Game Loop Contract",
+    "type": "object",
+    "required": [
+        "tick",
+        "loopState",
+        "maxUpdatesPerFrame",
+        "isPaused"
+    ],
+    "properties": {
+        "tick": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "loopState": {
+            "type": "string",
+            "enum": [
+                "running",
+                "paused",
+                "stopped"
+            ]
+        },
+        "maxUpdatesPerFrame": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "isPaused": {
+            "type": "boolean"
+        },
+        "deltaTimeSeconds": {
+            "type": "number",
+            "minimum": 0
+        }
+    },
+    "additionalProperties": false
+}
