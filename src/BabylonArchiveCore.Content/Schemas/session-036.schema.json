@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session036WorldAxesSchema",
+  "type": "object",
+  "properties": {
+    "moralAxis": { "type": "number", "minimum": -100, "maximum": 100 },
+    "technoArcaneAxis": { "type": "number", "minimum": -100, "maximum": 100 },
+    "worldAxisVersion": { "type": "integer", "minimum": 36 },
+    "factionReputations": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": -100, "maximum": 100 }
+    }
+  },
+  "required": ["moralAxis", "technoArcaneAxis", "worldAxisVersion", "factionReputations"]
+}

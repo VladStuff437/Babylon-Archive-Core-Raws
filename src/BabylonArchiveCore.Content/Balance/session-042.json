@@ -1,0 +1,11 @@
+{
+  "profileId": "session-042",
+  "mission": {
+    "allowDeadEnds": 0,
+    "deadEndPenalty": 300,
+    "fallbackPenalty": 600
+  },
+  "loot": {
+    "luckBias": 0.16
+  }
+}

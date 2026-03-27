@@ -1,0 +1,18 @@
+{
+  "profileId": "session-031-damage-formula-controls",
+  "description": "Debug controls for damage formula and loot rarity probes.",
+  "bindings": {
+    "ToggleCritForce": {
+      "input": "F4",
+      "action": "ToggleCritForce"
+    },
+    "IncreaseArmorPenetration": {
+      "input": "F5",
+      "action": "IncreaseArmorPenetration"
+    },
+    "RollLootProbe": {
+      "input": "F6",
+      "action": "RollLootProbe"
+    }
+  }
+}

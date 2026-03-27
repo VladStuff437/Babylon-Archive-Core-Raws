@@ -1,0 +1,18 @@
+{
+  "profileId": "session-028-auto-attack-controls",
+  "description": "Auto-attack controls with safe stop and interval.",
+  "bindings": {
+    "StartAutoAttack": {
+      "input": "A",
+      "action": "StartAutoAttack"
+    },
+    "StopAutoAttack": {
+      "input": "S",
+      "action": "StopAutoAttack"
+    },
+    "SafeStopAutoAttack": {
+      "input": "X",
+      "action": "SafeStopAutoAttack"
+    }
+  }
+}

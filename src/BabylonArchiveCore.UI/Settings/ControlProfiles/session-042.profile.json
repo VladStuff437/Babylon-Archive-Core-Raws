@@ -1,0 +1,9 @@
+{
+  "profileId": "session-042-dead-end-controls",
+  "description": "Debug controls for dead-end mission validation.",
+  "bindings": {
+    "ValidateDeadEnds": { "input": "Ctrl+F4", "action": "ValidateDeadEnds" },
+    "ToggleDeadEndGuard": { "input": "Ctrl+F5", "action": "ToggleDeadEndGuard" },
+    "ForceDeadEndFallback": { "input": "Ctrl+F6", "action": "ForceDeadEndFallback" }
+  }
+}

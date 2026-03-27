@@ -1,0 +1,18 @@
+{
+  "profileId": "session-027-combat-input-controls",
+  "description": "Tab target and Esc cancel controls with mission transition safety lock.",
+  "bindings": {
+    "NextTarget": {
+      "input": "Tab",
+      "action": "TabTarget"
+    },
+    "CancelTarget": {
+      "input": "Escape",
+      "action": "EscCancel"
+    },
+    "EnableTargeting": {
+      "input": "T",
+      "action": "ToggleTargeting"
+    }
+  }
+}

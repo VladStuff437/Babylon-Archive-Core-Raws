@@ -1,0 +1,14 @@
+{
+  "profileId": "session-038",
+  "mission": {
+    "fallbackPriorityBias": 0,
+    "checkpointBonus": 1
+  },
+  "damageMultipliers": {
+    "player": 1.03,
+    "enemy": 0.97
+  },
+  "loot": {
+    "luckBias": 0.15
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "profileId": "session-034-economy-controls",
+  "description": "Debug controls for economy transactions and inflation.",
+  "bindings": {
+    "IncreaseInflation": { "input": "F11", "action": "IncreaseInflation" },
+    "DecreaseInflation": { "input": "F12", "action": "DecreaseInflation" },
+    "ApplyFactionTrade": { "input": "T", "action": "ApplyFactionTrade" }
+  }
+}

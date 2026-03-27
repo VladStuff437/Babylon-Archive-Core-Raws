@@ -1,0 +1,64 @@
+using BabylonArchiveCore.Core.Archive;
+
+namespace BabylonArchiveCore.Runtime.Generation;
+
+/// <summary>
+/// Seed-based deterministic level generator.
+/// </summary>
+public sealed class LevelGenerator
+{
+    public LevelLayout Generate(ArchiveAddress address, IReadOnlyList<RoomArchetypeDefinition> archetypes, int roomCount)
+    {
+        ArgumentNullException.ThrowIfNull(archetypes);
+
+        if (roomCount < 1)
+        {
+            throw new ArgumentOutOfRangeException(nameof(roomCount), "roomCount must be greater than zero.");
+        }
+
+        if (archetypes.Count == 0)
+        {
+            throw new InvalidOperationException("At least one room archetype is required.");
+        }
+
+        var seed = ArchiveSeed.ToSeed(address);
+        var random = new Random(seed);
+        var rooms = new List<LevelRoom>(roomCount);
+
+        for (var index = 0; index < roomCount; index++)
+        {
+            var archetype = PickArchetype(archetypes, random);
+            rooms.Add(new LevelRoom
+            {
+                Index = index,
+                ArchetypeId = archetype.ArchetypeId,
+                LocalSeed = ArchiveSeed.DeriveChildSeed(seed, archetype.ArchetypeId, index)
+            });
+        }
+
+        return new LevelLayout
+        {
+            Address = address,
+            Seed = seed,
+            Rooms = rooms
+        };
+    }
+
+    private static RoomArchetypeDefinition PickArchetype(IReadOnlyList<RoomArchetypeDefinition> archetypes, Random random)
+    {
+        var totalWeight = archetypes.Sum(archetype => Math.Max(1, archetype.DifficultyWeight));
+        var roll = random.Next(totalWeight);
+
+        var cursor = 0;
+        foreach (var archetype in archetypes)
+        {
+            cursor += Math.Max(1, archetype.DifficultyWeight);
+            if (roll < cursor)
+            {
+                return archetype;
+            }
+        }
+
+        return archetypes[0];
+    }
+}

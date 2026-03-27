@@ -1,0 +1,14 @@
+{
+  "profileId": "session-032-balance-v1",
+  "damageMultipliers": {
+    "player": 1.0,
+    "enemy": 0.95
+  },
+  "economy": {
+    "buyPriceMultiplier": 1.0,
+    "sellPriceMultiplier": 0.65
+  },
+  "loot": {
+    "qualityBias": 0.05
+  }
+}

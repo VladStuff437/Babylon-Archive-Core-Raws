@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session043CycleSafetyContractSchema",
+  "type": "object",
+  "properties": {
+    "contractVersion": { "type": "integer", "minimum": 43 },
+    "missionId": { "type": "string" },
+    "unsafeCycleNodeIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "maxAllowedCycleLength": { "type": "integer", "minimum": 1 }
+  },
+  "required": ["contractVersion", "missionId", "unsafeCycleNodeIds", "maxAllowedCycleLength"]
+}

@@ -1,0 +1,11 @@
+{
+  "profileId": "session-044",
+  "mission": {
+    "fallbackDeterministic": 1,
+    "maxFallbackReasons": 3,
+    "fallbackPenalty": 700
+  },
+  "generation": {
+    "fallbackRoomWeight": 1
+  }
+}

@@ -1,5 +1,5 @@
 {
-    "activeProfile": "session-020-controls",
+    "activeProfile": "session-046-archive-address-controls",
     "fallbackProfile": "fallback",
     "profiles": [
         "fallback",
@@ -12,6 +12,32 @@
         "session-017-state",
         "session-018-command",
         "session-019-action-map",
-        "session-020-controls"
+        "session-020-controls",
+        "session-021-camera-controls",
+        "session-022-interaction-controls",
+        "session-023-inventory-controls",
+        "session-024-character-controls",
+        "session-025-status-controls",
+        "session-026-combat-core-controls",
+        "session-027-combat-input-controls",
+        "session-028-auto-attack-controls",
+        "session-029-ai-perception-controls",
+        "session-030-enemy-state-controls",
+        "session-031-damage-formula-controls",
+        "session-032-balance-v1-controls",
+        "session-033-loot-controls",
+        "session-034-economy-controls",
+        "session-035-faction-reputation-controls",
+        "session-036-world-axes-controls",
+        "session-037-mission-definition-controls",
+        "session-038-mission-node-controls",
+        "session-039-transition-evaluation-controls",
+        "session-040-mission-runtime-controls",
+        "session-041-reachability-controls",
+        "session-042-dead-end-controls",
+        "session-043-cycle-safety-controls",
+        "session-044-fallback-controls",
+        "session-045-mission-persistence-controls",
+        "session-046-archive-address-controls"
     ]
 }

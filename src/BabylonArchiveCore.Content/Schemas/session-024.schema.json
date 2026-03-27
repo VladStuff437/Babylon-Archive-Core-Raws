@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session024CharacterAttributesSchema",
+  "type": "object",
+  "properties": {
+    "playerId": {
+      "type": "string"
+    },
+    "strength": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "agility": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "intellect": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "vitality": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "unspentPoints": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "playerId",
+    "strength",
+    "agility",
+    "intellect",
+    "vitality",
+    "unspentPoints"
+  ]
+}

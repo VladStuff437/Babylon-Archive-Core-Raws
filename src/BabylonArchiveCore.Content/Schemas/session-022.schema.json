@@ -1,0 +1,107 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Session022InteractionSchema",
+    "type": "object",
+    "properties": {
+        "interactionType": {
+            "type": "string",
+            "enum": [
+                "Pickup",
+                "Talk",
+                "Use",
+                "Examine"
+            ]
+        },
+        "targetId": {
+            "type": "string"
+        },
+        "actorId": {
+            "type": "string"
+        },
+        "consumed": {
+            "type": "boolean"
+        },
+        "inventory": {
+            "type": "object",
+            "properties": {
+                "capacity": {
+                    "type": "integer"
+                },
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "itemId": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            },
+                            "quantity": {
+                                "type": "integer"
+                            },
+                            "maxStack": {
+                                "type": "integer"
+                            }
+                        },
+                        "required": [
+                            "itemId",
+                            "name"
+                        ]
+                    }
+                }
+            }
+        },
+        "playerState": {
+            "type": "object",
+            "properties": {
+                "health": {
+                    "type": "integer"
+                },
+                "maxHealth": {
+                    "type": "integer"
+                },
+                "stamina": {
+                    "type": "integer"
+                },
+                "maxStamina": {
+                    "type": "integer"
+                },
+                "level": {
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "experience": {
+                    "type": "integer",
+                    "minimum": 0
+                }
+            }
+        },
+        "combat": {
+            "type": "object",
+            "properties": {
+                "phases": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "Direct",
+                            "AOE",
+                            "Status",
+                            "Resolve"
+                        ]
+                    }
+                },
+                "autoAttack": {
+                    "type": "boolean"
+                }
+            }
+        }
+    },
+    "required": [
+        "interactionType",
+        "targetId",
+        "actorId"
+    ]
+}

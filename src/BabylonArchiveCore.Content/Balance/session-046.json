@@ -1,0 +1,11 @@
+{
+  "profileId": "session-046",
+  "mission": {
+    "archiveAddressCanonical": 1,
+    "seedHierarchyEnabled": 1,
+    "fallbackPenalty": 700
+  },
+  "generation": {
+    "addressModelVersion": 46
+  }
+}

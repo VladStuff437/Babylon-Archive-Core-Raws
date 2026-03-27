@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session039TransitionEvaluationContractSchema",
+  "type": "object",
+  "properties": {
+    "contractVersion": { "type": "integer", "minimum": 39 },
+    "priorityWeight": { "type": "number", "minimum": 0 },
+    "conditionSatisfiedBonus": { "type": "number", "minimum": 0 },
+    "fallbackPenalty": { "type": "number", "minimum": 0 },
+    "deterministicTieBreak": { "type": "boolean" }
+  },
+  "required": [
+    "contractVersion",
+    "priorityWeight",
+    "conditionSatisfiedBonus",
+    "fallbackPenalty",
+    "deterministicTieBreak"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "profileId": "session-025-status-controls",
+  "description": "Status management controls.",
+  "bindings": {
+    "OpenStatus": {
+      "input": "V",
+      "action": "OpenStatusPanel"
+    },
+    "CleanseStatus": {
+      "input": "X",
+      "action": "CleanseStatus"
+    },
+    "ToggleStatusDebug": {
+      "input": "F6",
+      "action": "ToggleStatusDebug"
+    }
+  }
+}

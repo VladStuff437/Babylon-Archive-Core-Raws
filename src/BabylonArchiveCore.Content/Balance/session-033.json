@@ -1,0 +1,17 @@
+{
+  "profileId": "session-033",
+  "damageMultipliers": {
+    "player": 1.0,
+    "enemy": 1.0
+  },
+  "lootRarityWeights": {
+    "common": 58,
+    "uncommon": 26,
+    "rare": 11,
+    "epic": 4,
+    "legendary": 1
+  },
+  "loot": {
+    "luckBias": 0.15
+  }
+}

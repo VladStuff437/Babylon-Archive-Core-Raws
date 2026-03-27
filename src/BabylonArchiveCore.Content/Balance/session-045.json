@@ -1,0 +1,11 @@
+{
+  "profileId": "session-045",
+  "mission": {
+    "snapshotVersion": 45,
+    "checksumRequired": 1,
+    "fallbackPenalty": 700
+  },
+  "generation": {
+    "persistedSeedReplay": 1
+  }
+}

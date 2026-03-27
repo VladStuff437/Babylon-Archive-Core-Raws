@@ -1,0 +1,9 @@
+{
+  "profileId": "session-041-reachability-controls",
+  "description": "Debug controls for mission reachability validation.",
+  "bindings": {
+    "ValidateReachability": { "input": "Ctrl+F1", "action": "ValidateReachability" },
+    "DumpReachabilityGraph": { "input": "Ctrl+F2", "action": "DumpReachabilityGraph" },
+    "ForceReachabilityFallback": { "input": "Ctrl+F3", "action": "ForceReachabilityFallback" }
+  }
+}

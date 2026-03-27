@@ -1,0 +1,9 @@
+{
+  "profileId": "session-035-faction-reputation-controls",
+  "description": "Debug controls for faction reputation and world axes updates.",
+  "bindings": {
+    "IncreaseGuildRep": { "input": "NumPad1", "action": "IncreaseGuildRep" },
+    "DecreaseGuildRep": { "input": "NumPad2", "action": "DecreaseGuildRep" },
+    "ShiftMoralAxis": { "input": "NumPad3", "action": "ShiftMoralAxis" }
+  }
+}

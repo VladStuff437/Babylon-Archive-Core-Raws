@@ -1,0 +1,24 @@
+{
+    "profileId": "session-021-camera-controls",
+    "description": "Control profile for camera modes: Follow, Aim, Inspect.",
+    "modes": [
+        "Follow",
+        "Aim",
+        "Inspect"
+    ],
+    "defaultMode": "Follow",
+    "bindings": {
+        "Follow": {
+            "input": "WASD/ArrowKeys",
+            "action": "Move/Orbit"
+        },
+        "Aim": {
+            "input": "RightMouse",
+            "action": "Aim"
+        },
+        "Inspect": {
+            "input": "MiddleMouse",
+            "action": "Inspect"
+        }
+    }
+}

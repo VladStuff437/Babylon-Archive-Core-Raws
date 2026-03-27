@@ -1,0 +1,9 @@
+{
+  "profileId": "session-038-mission-node-controls",
+  "description": "Debug controls for mission node transitions, priorities, and fallback paths.",
+  "bindings": {
+    "ForceNodeFallback": { "input": "F4", "action": "ForceNodeFallback" },
+    "IncreaseTransitionPriority": { "input": "F5", "action": "IncreaseTransitionPriority" },
+    "ToggleCheckpoint": { "input": "F6", "action": "ToggleCheckpoint" }
+  }
+}

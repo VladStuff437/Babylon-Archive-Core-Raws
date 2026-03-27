@@ -1,0 +1,22 @@
+{
+    "profileId": "session-023-inventory-controls",
+    "description": "Control profile for inventory v1 operations.",
+    "bindings": {
+        "OpenInventory": {
+            "input": "I",
+            "action": "ToggleInventory"
+        },
+        "UseItem": {
+            "input": "Enter",
+            "action": "UseSelected"
+        },
+        "DropItem": {
+            "input": "Q",
+            "action": "DropSelected"
+        },
+        "SortInventory": {
+            "input": "R",
+            "action": "SortInventory"
+        }
+    }
+}

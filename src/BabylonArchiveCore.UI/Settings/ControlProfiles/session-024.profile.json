@@ -1,0 +1,18 @@
+{
+  "profileId": "session-024-character-controls",
+  "description": "Character attributes and stance controls.",
+  "bindings": {
+    "OpenAttributes": {
+      "input": "C",
+      "action": "OpenAttributes"
+    },
+    "IncreaseAttribute": {
+      "input": "+",
+      "action": "IncreaseAttribute"
+    },
+    "DecreaseAttribute": {
+      "input": "-",
+      "action": "DecreaseAttribute"
+    }
+  }
+}

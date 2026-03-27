@@ -1,0 +1,18 @@
+{
+  "profileId": "session-026-combat-core-controls",
+  "description": "Core combat controls.",
+  "bindings": {
+    "PrimaryAttack": {
+      "input": "MouseLeft",
+      "action": "PrimaryAttack"
+    },
+    "AoeAttack": {
+      "input": "MouseRight",
+      "action": "AoeAttack"
+    },
+    "CriticalModifier": {
+      "input": "LeftShift",
+      "action": "CriticalModifier"
+    }
+  }
+}

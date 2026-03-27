@@ -1,0 +1,18 @@
+{
+  "profileId": "session-029-ai-perception-controls",
+  "description": "Debug controls for AI perception visibility and target lock.",
+  "bindings": {
+    "TogglePerceptionDebug": {
+      "input": "P",
+      "action": "TogglePerceptionDebug"
+    },
+    "CycleObservedTarget": {
+      "input": "O",
+      "action": "CycleObservedTarget"
+    },
+    "ClearPerceptionTarget": {
+      "input": "L",
+      "action": "ClearPerceptionTarget"
+    }
+  }
+}

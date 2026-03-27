@@ -1,0 +1,9 @@
+{
+  "profileId": "session-039-transition-evaluation-controls",
+  "description": "Debug controls for transition scoring and deterministic tie-break checks.",
+  "bindings": {
+    "BoostPriorityWeight": { "input": "F7", "action": "BoostPriorityWeight" },
+    "IncreaseFallbackPenalty": { "input": "F8", "action": "IncreaseFallbackPenalty" },
+    "ToggleTieBreak": { "input": "F9", "action": "ToggleTieBreak" }
+  }
+}

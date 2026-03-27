@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session035FactionReputationSchema",
+  "type": "object",
+  "properties": {
+    "moralAxis": { "type": "number", "minimum": -100, "maximum": 100 },
+    "technoArcaneAxis": { "type": "number", "minimum": -100, "maximum": 100 },
+    "factionReputations": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": -100, "maximum": 100 }
+    }
+  },
+  "required": ["moralAxis", "technoArcaneAxis", "factionReputations"]
+}

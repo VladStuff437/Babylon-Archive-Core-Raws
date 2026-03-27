@@ -1,0 +1,9 @@
+{
+  "profileId": "session-036-world-axes-controls",
+  "description": "Debug controls for world axes and faction reputation updates.",
+  "bindings": {
+    "ShiftMoralAxis": { "input": "NumPad4", "action": "ShiftMoralAxis" },
+    "ShiftTechnoAxis": { "input": "NumPad5", "action": "ShiftTechnoAxis" },
+    "ApplyAxisDelta": { "input": "NumPad6", "action": "ApplyAxisDelta" }
+  }
+}

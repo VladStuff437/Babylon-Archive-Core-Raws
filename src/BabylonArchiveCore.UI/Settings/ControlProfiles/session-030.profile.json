@@ -1,0 +1,18 @@
+{
+  "profileId": "session-030-enemy-state-controls",
+  "description": "Debug controls for enemy state machine transitions.",
+  "bindings": {
+    "ForceEnemyAlert": {
+      "input": "F1",
+      "action": "ForceEnemyAlert"
+    },
+    "ForceEnemyInvestigate": {
+      "input": "F2",
+      "action": "ForceEnemyInvestigate"
+    },
+    "ForceEnemyReturn": {
+      "input": "F3",
+      "action": "ForceEnemyReturnToPost"
+    }
+  }
+}
