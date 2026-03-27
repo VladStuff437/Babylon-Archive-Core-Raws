@@ -1,5 +1,5 @@
 {
-    "activeProfile": "session-016-gameloop",
+    "activeProfile": "session-020-controls",
     "fallbackProfile": "fallback",
     "profiles": [
         "fallback",
@@ -8,6 +8,10 @@
         "session-013-versioned",
         "session-014-migration",
         "session-015-events",
-        "session-016-gameloop"
+        "session-016-gameloop",
+        "session-017-state",
+        "session-018-command",
+        "session-019-action-map",
+        "session-020-controls"
     ]
 }

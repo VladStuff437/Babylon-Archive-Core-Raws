@@ -25,10 +25,10 @@
 | 014 | Миграции данных | Консолидация migration pipeline | Артефакты S011–013 | Migration_014 + tests | ✅ Завершена |
 | 015 | Таксономия событий | Нормализация runtime event model | Артефакты S011–014 | Event taxonomy + tests | ✅ Завершена |
 | 016 | Каркас game loop | Базовый управляемый цикл runtime | Артефакты S011–015 | GameLoop scaffold + validation + tests | ✅ Завершена |
-| 017 | Runtime State Manager | Управление состоянием рантайма | Артефакты S011–016 | Runtime state manager + tests | ⏳ |
-| 018 | Командный контур действий | Расширение command pipeline | Артефакты S011–017 | Command contour + tests | ⏳ |
-| 019 | Action map ввода | Карта действий и профили | Артефакты S011–018 | Action map + tests | ⏳ |
-| 020 | Профили управления | Консолидация control profiles | Все S011–019 | Control profiles v1 + tests | ⏳ |
+| 017 | Runtime State Manager | Управление состоянием рантайма | Артефакты S011–016 | Runtime state manager + tests | ✅ Завершена |
+| 018 | Командный контур действий | Расширение command pipeline | Артефакты S011–017 | Command contour + tests | ✅ Завершена |
+| 019 | Action map ввода | Карта действий и профили | Артефакты S011–018 | Action map + tests | ✅ Завершена |
+| 020 | Профили управления | Консолидация control profiles | Все S011–019 | Control profiles v1 + tests | ✅ Завершена |
 
 ## Блоки 03–15
 > Детализация по мере продвижения. См. MasterPlan.md для полного списка 150 сессий.

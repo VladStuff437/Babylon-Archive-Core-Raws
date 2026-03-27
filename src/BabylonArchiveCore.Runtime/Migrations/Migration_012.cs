@@ -11,6 +11,8 @@ public static class Migration_012
 
     public static JsonObject Apply(JsonObject source)
     {
+        ArgumentNullException.ThrowIfNull(source);
+
         var result = (JsonObject?)source.DeepClone() ?? new JsonObject();
         result["schemaVersion"] = TargetVersion;
 

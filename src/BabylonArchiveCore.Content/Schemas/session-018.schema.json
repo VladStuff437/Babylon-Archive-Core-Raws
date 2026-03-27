@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://babylon-archive-core/schemas/session-018.schema.json",
+    "title": "Session018 Command Contour Contract",
+    "type": "object",
+    "required": [
+        "commandType",
+        "allowedModes",
+        "requiresInitializedWorld",
+        "isIdempotent"
+    ],
+    "properties": {
+        "commandType": {
+            "type": "string",
+            "minLength": 1
+        },
+        "allowedModes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string"
+            }
+        },
+        "requiresInitializedWorld": {
+            "type": "boolean"
+        },
+        "isIdempotent": {
+            "type": "boolean"
+        },
+        "queueName": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": false
+}

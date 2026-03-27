@@ -18,8 +18,12 @@
 | ADR-014 | Data Migration Pipeline Consolidation | Accepted | 014 | INV-019 |
 | ADR-015 | Runtime Event Taxonomy Baseline | Accepted | 015 | INV-020 |
 | ADR-016 | Minimal Game Loop Scaffold | Accepted | 016 | INV-021 |
+| ADR-017 | Runtime State Manager Baseline | Accepted | 017 | INV-022 |
+| ADR-018 | Command Contour Validation | Accepted | 018 | INV-023 |
+| ADR-019 | Input Action Map with Fallback | Accepted | 019 | INV-024 |
+| ADR-020 | Control Profiles v1 Consolidation | Accepted | 020 | INV-025 |
 
 ## По статусу
-- **Accepted**: ADR-001..016
+- **Accepted**: ADR-001..020
 - **Superseded**: —
 - **Deprecated**: —

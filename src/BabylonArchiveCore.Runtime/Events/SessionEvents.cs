@@ -1,7 +1,7 @@
 namespace BabylonArchiveCore.Runtime.Events;
 
 /// <summary>
-/// Каталог runtime-событий S011-S013.
+/// Каталог runtime-событий S011-S020.
 /// </summary>
 public static class SessionEvents
 {
@@ -11,4 +11,8 @@ public static class SessionEvents
     public const string Session014MigrationPipelineReady = "session.014.migration.pipeline.ready";
     public const string Session015TaxonomyApplied = "session.015.taxonomy.applied";
     public const string Session016GameLoopStarted = "session.016.gameloop.started";
+    public const string Session017RuntimeStateSynchronized = "session.017.runtime.state.synchronized";
+    public const string Session018CommandContourValidated = "session.018.command.contour.validated";
+    public const string Session019ActionMapResolved = "session.019.action.map.resolved";
+    public const string Session020ControlProfilesConsolidated = "session.020.control.profiles.consolidated";
 }

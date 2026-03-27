@@ -7,6 +7,10 @@
 - Session014: schema version 14
 - Session015: schema version 15
 - Session016: schema version 16
+- Session017: schema version 17
+- Session018: schema version 18
+- Session019: schema version 19
+- Session020: schema version 20
 
 ## Правила
 - Каждое изменение структуры данных повышает schemaVersion.
@@ -26,3 +30,7 @@
 - Migration_014
 - Migration_015
 - Migration_016
+- Migration_017
+- Migration_018
+- Migration_019
+- Migration_020

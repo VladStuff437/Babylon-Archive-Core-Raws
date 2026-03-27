@@ -1,0 +1,8 @@
+{
+    "profileId": "session-017-state",
+    "extends": "session-016-gameloop",
+    "bindings": {
+        "snapshotState": "F6",
+        "cycleRuntimeMode": "F7"
+    }
+}

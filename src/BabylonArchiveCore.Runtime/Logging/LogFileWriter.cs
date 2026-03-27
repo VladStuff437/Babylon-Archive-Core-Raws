@@ -38,6 +38,8 @@ namespace BabylonArchiveCore.Runtime.Logging
 
         public void Write(LogEntry entry)
         {
+            ArgumentNullException.ThrowIfNull(entry);
+
             lock (_lock)
             {
                 _stream.WriteLine(entry.ToFileLine());

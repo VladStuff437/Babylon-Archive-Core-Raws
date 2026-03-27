@@ -279,3 +279,55 @@
 - [ ] CommandPipeline валидирует некорректные состояния до исполнения команды
 
 **Введён**: Сессия 016 / ADR-016
+
+---
+
+## INV-022: Runtime State Manager Integrity
+
+**Описание**: Runtime должен иметь единый менеджер состояния, синхронизирующий режим и тик с WorldStateReader, а также фиксирующий dirty-state после переходов.
+
+**Проверка**:
+- [ ] Существует `Session017RuntimeStateContract`
+- [ ] Существует `RuntimeStateManager`
+- [ ] RuntimeStateManager поддерживает sync/transition/dirty-state
+
+**Введён**: Сессия 017 / ADR-017
+
+---
+
+## INV-023: Command Contour Validation Integrity
+
+**Описание**: Все команды, для которых задан command contour, обязаны проходить mode-aware и state-aware валидацию до мутации WorldState.
+
+**Проверка**:
+- [ ] Существует `Session018CommandContourContract`
+- [ ] Существует `CommandContourRegistry`
+- [ ] `CommandPipeline` выполняет contour validation до `ApplyCommand`
+
+**Введён**: Сессия 018 / ADR-018
+
+---
+
+## INV-024: Input Action Map Fallback Integrity
+
+**Описание**: Разрешение действий ввода должно выполняться через action map профиль с fallback-маршрутом, исключая жёстко кодированные бинды в pipeline.
+
+**Проверка**:
+- [ ] Существует `Session019ActionMapContract`
+- [ ] Существует `ActionMapCatalog` с fallback-резолвом
+- [ ] `CommandPipeline` поддерживает mapped-input execution
+
+**Введён**: Сессия 019 / ADR-019
+
+---
+
+## INV-025: Control Profile Chain Integrity
+
+**Описание**: Выбор профиля управления обязан выполняться через консолидацию active/fallback/profileChain в runtime-слое с предсказуемым fallback-маршрутом.
+
+**Проверка**:
+- [ ] Существует `Session020ControlProfilesContract`
+- [ ] Существует `ControlProfileResolver`
+- [ ] `CommandPipeline` поддерживает profile-chain execution
+
+**Введён**: Сессия 020 / ADR-020

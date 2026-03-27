@@ -273,3 +273,61 @@
 | # | Решение | Причина | Планируемая сессия |
 |---|---------|---------|-------------------|
 | P-013 | Детальные профили frame budget и fixed timestep | Требуется Runtime State Manager из S017 | 017+ |
+
+---
+
+## Сессия 017 — Runtime State Manager
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-079 | Ввести Session017RuntimeStateContract | Явная модель состояния runtime-менеджера | ADR-017 |
+| D-080 | Добавить RuntimeStateManager с sync/transition/dirty-state | Управляемая синхронизация режима и тика | ADR-017 |
+| D-081 | Добавить Migration_017 и Session017Serializer | Контролируемый апгрейд схемы до v17 | ADR-017 |
+| D-082 | INV-022: Runtime State Manager Integrity | Формализация требований к runtime-state слою | ADR-017 |
+
+---
+
+## Сессия 018 — Командный контур действий
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-083 | Ввести Session018CommandContourContract | Явный контракт правил исполнения команд | ADR-018 |
+| D-084 | Добавить CommandContourRegistry | Централизация validation-правил по mode/state | ADR-018 |
+| D-085 | Расширить CommandPipeline contour validation | Ранний отказ до мутации WorldState | ADR-018 |
+| D-086 | INV-023: Command Contour Validation Integrity | Формальный инвариант командного контура | ADR-018 |
+
+---
+
+## Сессия 019 — Action map ввода
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-087 | Ввести Session019ActionMapContract | Стандартизация профиля action map | ADR-019 |
+| D-088 | Добавить ActionMapCatalog с fallback-путём | Надёжный резолв ввода при неполных профилях | ADR-019 |
+| D-089 | Расширить CommandPipeline методом TryExecuteMappedInput | Связка action map и command contour в runtime | ADR-019 |
+| D-090 | INV-024: Input Action Map Fallback Integrity | Формализация fallback-политики ввода | ADR-019 |
+
+### Отложено
+| # | Решение | Причина | Планируемая сессия |
+|---|---------|---------|-------------------|
+| P-014 | Device-specific override слои action map | Требуется консолидация control profiles в S020 | 020 |
+
+---
+
+## Сессия 020 — Профили управления
+
+### Принято
+| # | Решение | Обоснование | ADR |
+|---|---------|-------------|-----|
+| D-091 | Ввести Session020ControlProfilesContract | Явный контракт active/fallback/profileChain | ADR-020 |
+| D-092 | Добавить ControlProfileResolver в Runtime/Input | Централизация выбора профиля управления | ADR-020 |
+| D-093 | Расширить CommandPipeline profile-chain execution | Прямая интеграция ввода с цепочкой профилей | ADR-020 |
+| D-094 | INV-025: Control Profile Chain Integrity | Формализация консолидации control profiles v1 | ADR-020 |
+
+### Отложено
+| # | Решение | Причина | Планируемая сессия |
+|---|---------|---------|-------------------|
+| P-015 | Device-aware auto-selection профиля | Требуется runtime camera/input контур блока 03 | 021 |

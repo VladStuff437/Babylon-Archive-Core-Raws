@@ -12,4 +12,8 @@ public static class EventTaxonomy
     public const string MigrationCategory = "migration";
     public const string ValidationCategory = "validation";
     public const string LoopCategory = "game-loop";
+    public const string StateCategory = "state";
+    public const string CommandCategory = "command";
+    public const string ActionMapCategory = "action-map";
+    public const string ControlProfileCategory = "control-profile";
 }

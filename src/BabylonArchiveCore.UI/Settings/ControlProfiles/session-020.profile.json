@@ -1,0 +1,9 @@
+{
+    "profileId": "session-020-controls",
+    "extends": "session-019-action-map",
+    "bindings": {
+        "nextControlProfile": "Tab",
+        "previousControlProfile": "Shift+Tab",
+        "resetControlProfile": "R"
+    }
+}

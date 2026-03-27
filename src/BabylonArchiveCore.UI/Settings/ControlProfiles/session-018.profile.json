@@ -1,0 +1,8 @@
+{
+    "profileId": "session-018-command",
+    "extends": "session-017-state",
+    "bindings": {
+        "confirmCommand": "Enter",
+        "cancelCommand": "Backspace"
+    }
+}

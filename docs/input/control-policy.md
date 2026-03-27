@@ -1,7 +1,7 @@
 # Control Policy
 
 ## Профили управления
-- Основной профиль: session-016-gameloop
+- Основной профиль: session-020-controls
 - Fallback профиль: fallback
 
 ## Правила fallback
@@ -15,3 +15,7 @@
 - Session014: migration controls
 - Session015: event console controls
 - Session016: game loop pause/step controls
+- Session017: runtime state snapshot/switch controls
+- Session018: command contour confirm/cancel controls
+- Session019: action map access and quick slots
+- Session020: consolidated profile chain controls
